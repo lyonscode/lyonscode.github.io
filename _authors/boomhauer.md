@@ -1,9 +1,9 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.png
+photo: /assets/img/uploads/boomhauer.png
 name: boomhauer
 display_name: boomhauer
-position: The One
+position: ???
 bio: cybersecurity dude
 github_username: github_username
 facebook_username: facebook_username
