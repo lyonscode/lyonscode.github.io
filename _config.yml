@@ -1,8 +1,7 @@
 # Site Settings
 name: lyons_code
 title: lyons_code
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+description: A portfolio of cybersecurity knowledge
 tags:
   - blog
   - template
@@ -19,7 +18,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: michaellyons@protonmail.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
@@ -33,7 +32,7 @@ github_username: lyonscode
 #facebook_username: facebook_username
 #twitter_username: twitter_username
 #instagram_username: instagram_username
-linkedin_username: michaellyons-cybersecurity
+linkedin_username: lyonscode
 #medium_username: medium_username
 
 
