@@ -1,14 +1,14 @@
 formspree_form_id: formspree_form_id
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: lyons_code
+title: lyons_code
+description: A portfolio of cybersecurity knowledge
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - cybersecurity
+  - portfolio
+  - infosec
+  - resume
+  - ""
 show_hero: true
 menu:
   - title: Home
