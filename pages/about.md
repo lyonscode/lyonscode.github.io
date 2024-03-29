@@ -1,13 +1,12 @@
 ---
 layout: page
 menu: false
-date: '2020-02-27 01:53:59'
+date: 2020-02-27 01:53:59
 title: About
-description: Some description.
 permalink: /about/
+description: Some description.
 ---
-
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thomas A. Anderson" width="200">
+<img class="img-rounded" src="/assets/img/uploads/boomhauer.jpg" alt="boomhauer" width="200">
 
 # About
 
