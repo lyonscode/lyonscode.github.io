@@ -10,7 +10,5 @@ description: Some description.
 
 # About
 
-Experienced IT support professional with a history of providing excellent technical
-assistance. Currently pursuing cybersecurity studies with a deep interest in information
-security, ethical hacking, and risk management. Eager to leverage my IT experience to
-transition into a role in the cybersecurity field.
+Hey there! I'm Michael -- an experienced IT support professional working on transitioning into a cybersecurity position. Currently pursuing cybersecurity studies with a deep interest in information
+security, ethical hacking, and risk management.
