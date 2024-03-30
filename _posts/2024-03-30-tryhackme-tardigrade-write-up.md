@@ -54,6 +54,14 @@ Something's weird in giorgio's home directory.  When we run `ls -la` to take a l
 
 ![.bad_bash](/assets/img/uploads/bad_bash.png ".bad_bash")
 
-A name that on the nose can't be anything healthy.
+A name that on the nose can't be anything healthy.  Best not to run it.
 
 **Answer:** .bad_bash
+
+##### Another file that can be found in every user's home directory is the .bashrc file. Can you check if you can find something interesting in giorgio's .bashrc?
+
+Running a `cat` command on .bashrc immediately shows us a concerning alias:
+
+![.bashrc](/assets/img/uploads/bashrc.png ".bashrc")
+
+The `ls` command has been a given an alias that attempts to create a reverse shell before listing the directory contents!
