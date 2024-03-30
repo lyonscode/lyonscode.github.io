@@ -51,3 +51,9 @@ This will give us the distribution-specific information we're looking for.  We c
 ##### What's the most interesting file you found in giorgio's home directory?
 
 Something's weird in giorgio's home directory.  When we run `ls -la` to take a look, we find a "bad" file:
+
+![.bad_bash](/assets/img/uploads/bad_bash.png ".bad_bash")
+
+A name that on the nose can't be anything healthy.
+
+**Answer:** .bad_bash
