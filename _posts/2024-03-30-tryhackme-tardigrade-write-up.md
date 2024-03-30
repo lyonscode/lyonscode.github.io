@@ -36,4 +36,8 @@ Our first question asks us to find the verify the version of operating system in
 
 An easy way to access that information on Linux is with the command `lsb_release -a`
 
-{% figure {"image": "/assets/img/uploads/lsb_release-a.png"} %}
+![lsb_release -a output](/assets/img/uploads/lsb_release-a.png "output of lsb_release -a")
+
+This will give us the distribution-specific information we're looking for.  We can simplify our search further by running `lsb_release -d` instead, which will give us just the "Description" section, which contains our answer.
+
+![lsb_release -d output](/assets/img/uploads/lsb_release-d.png "output of lsb_release -d")
