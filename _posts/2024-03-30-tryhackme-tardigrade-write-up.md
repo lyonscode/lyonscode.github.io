@@ -28,4 +28,12 @@ To begin, we'll connect to the compromised server.  We've been given the followi
 >
 > password: armani
 
-We've also been told that the **giorgio** account has **root access** to the server -- very nice.
+We've also been told that the **giorgio** account has **root access** to the server -- nice! Though perhaps also nice for our malicious friend...
+
+##### What is the server's OS version?
+
+Our first question asks us to find the verify the version of operating system installed on the server.
+
+An easy way to access that information on Linux is with the command `lsb_release -a`
+
+{% figure {"image": "/assets/img/uploads/lsb_release-a.png"} %}
