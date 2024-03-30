@@ -11,6 +11,6 @@ description: Some description.
 # About
 
 Hey there! I'm Michael -- an experienced IT support professional working on transitioning into a cybersecurity position. I'm passionate about information
-security, ethical hacking, and risk management, and I look forward to helping your organization strengthen your security posture.
+security, ethical hacking, and risk management, and I look forward to helping strengthen the security posture of your organization.
 
 Let's [chat](https://lyonscode.github.io/contact/)!
