@@ -14,7 +14,7 @@ tags:
 author: Michael
 paginate: false
 ---
-This room can be found [here](https://tryhackme.com/r/room/tardigrade).
+The TryHackMe room Tardigrade can be found [here](https://tryhackme.com/r/room/tardigrade).
 
 > A server has been compromised, and the security team has decided to isolate the machine until it's been thoroughly cleaned up. Initial checks by the Incident Response team revealed that there are five different backdoors. It's your job to find and remediate them before giving the signal to bring the server back to production.
 
@@ -34,11 +34,11 @@ We've also been told that the **giorgio** account has **root access** to the ser
 
 Our first question asks us to find the verify the version of operating system installed on the server.
 
-An easy way to access that information on Linux is with the command `lsb_release -a`
+An easy way to access that information on Linux is with the command `lsb_release -a`:
 
 ![lsb_release -a output](/assets/img/uploads/lsb_release-a.png "output of lsb_release -a")
 
-This will give us the distribution-specific information we're looking for.  We can simplify our search further by running `lsb_release -d` instead, which will give us just the "Description" section, which contains our answer.
+This will give us the distribution-specific information we're looking for.  We can simplify our search further by running `lsb_release -d` instead, which will give us just the "Description" section, which contains our answer:
 
 ![lsb_release -d output](/assets/img/uploads/lsb_release-d.png "output of lsb_release -d")
 
@@ -49,3 +49,5 @@ This will give us the distribution-specific information we're looking for.  We c
 > Since we're in the giorgio account already, we might as well have a look around.
 
 ##### What's the most interesting file you found in giorgio's home directory?
+
+Something's weird in giorgio's home directory.  When we run `ls -la` to take a look, we find a "bad" file:
