@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Project
-slug: "{{slug}}"
+slug: project
 description: A category for project related posts.
 ---
