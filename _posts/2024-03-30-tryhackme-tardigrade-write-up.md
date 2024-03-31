@@ -4,8 +4,8 @@ layout: post
 title: TryHackMe - Tardigrade - Write-Up
 subtitle: Can you find all the basic persistence mechanisms in this Linux endpoint?
 description: A write-up and walkthrough of the TryHackMe room Tardigrade
-image: /assets/img/uploads/tardigrade-760x399.png
-optimized_image: /assets/img/uploads/tardigrade-760x399.png
+image: /assets/img/uploads/tardigrade-760x399-4.png
+optimized_image: /assets/img/uploads/tardigrade-760x399-4.png
 category: write-up
 tags:
   - tryhackme
