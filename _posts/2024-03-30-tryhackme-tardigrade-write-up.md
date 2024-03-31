@@ -146,10 +146,12 @@ The above instructions heavily imply that there is something amiss with an accou
 
 ![](/assets/img/uploads/nobody.png)
 
-The nobody is looking a lot like somebody!
+Nobody is looking a lot like somebody!
 
-We might normally expect the nobody account to have an /etc/passwd entry like this
+The nobody account usually doesn't have much in the way of permissions as it is used as a placeholder for processes that don't require special rights, and isn't supposed to be logged into.  We might expect the account to have an /etc/passwd entry like this:
 
 ```
 nobody:x:65534:65534:Nobody:/nonexistent:/usr/sbin/nologin
 ```
+
+Compare this to the entry found on giorgio's computer.  Giorgio's nobody has a bash shell assigned to it and is a member of the root group, giving it some elevated permissions (albeit not as much as root itself).
