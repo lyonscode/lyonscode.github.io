@@ -4,7 +4,7 @@ layout: post
 title: TryHackMe - Tardigrade - Write-Up
 subtitle: Can you find all the basic persistence mechanisms in this Linux endpoint?
 description: A write-up and walkthrough of the TryHackMe room Tardigrade
-image: https://tryhackme-images.s3.amazonaws.com/room-icons/5a8e7a7a02d75283f411004a07e7bfc6.png
+image: /assets/img/uploads/tardigrade.png
 optimized_image: ""
 category: "{{slug}}"
 tags:
