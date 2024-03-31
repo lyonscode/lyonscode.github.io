@@ -104,7 +104,7 @@ As mentioned, giorgio has root access to the server, so we escalate our privileg
 
 **Answer:** `Ncat: TIMEOUT.`
 
-**After moving forward with the error message, a suspicious command appears in the terminal as part of the error message.  What command was displayed?**
+**After moving forward with the error message, a suspicious command appears in the terminal as part of the error message.  What command was displayed?** 
 
 We press enter to continue and are provided another unexpected result:
 
