@@ -141,3 +141,7 @@ and we find our culprit: yet another reverse shell.  Our malicious friend sure i
 > This specific persistence mechanism is directly tied to *something* (or someone?) already present in fresh Linux installs and may be abused and/or manipulated to fit an adversary's goals. 
 
 ##### What's its name? What is the last persistence mechanism?
+
+The above instructions heavily imply that there is something amiss with an account, so let's check out /etc/passwd to see if anything stands out:
+
+![](/assets/img/uploads/nobody.png)
