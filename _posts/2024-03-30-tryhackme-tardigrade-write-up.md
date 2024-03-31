@@ -6,11 +6,12 @@ subtitle: Can you find all the basic persistence mechanisms in this Linux endpoi
 description: A write-up and walkthrough of the TryHackMe room Tardigrade
 image: /assets/img/uploads/tardigrade-760x399.png
 optimized_image: /assets/img/uploads/tardigrade-760x399.png
-category: "{{slug}}"
+category: write-up
 tags:
   - tryhackme
   - tardigrade
   - write-up
+  - walkthrough
 author: Michael
 paginate: false
 ---
