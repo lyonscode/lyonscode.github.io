@@ -1,11 +1,11 @@
 ---
-date: 2024-03-30 09:54:18
+date: 2024-03-30 21:45:23
 layout: post
 title: TryHackMe - Tardigrade - Write-Up
 subtitle: Can you find all the basic persistence mechanisms in this Linux endpoint?
 description: A write-up and walkthrough of the TryHackMe room Tardigrade
-image: /assets/img/uploads/pexels-tima-miroshnichenko-5380594-resized.jpg
-optimized_image: /assets/img/uploads/pexels-tima-miroshnichenko-5380594.jpg
+image: /assets/img/uploads/tardigrade.png
+optimized_image: ""
 category: "{{slug}}"
 tags:
   - tryhackme
