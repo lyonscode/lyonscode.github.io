@@ -145,3 +145,11 @@ and we find our culprit: yet another reverse shell.  Our malicious friend sure i
 The above instructions heavily imply that there is something amiss with an account, so let's check out /etc/passwd to see if anything stands out:
 
 ![](/assets/img/uploads/nobody.png)
+
+The nobody is looking a lot like somebody!
+
+We might normally expect the nobody account to have an /etc/passwd entry like this
+
+```
+nobody:x:65534:65534:Nobody:/nonexistent:/usr/sbin/nologin
+```
