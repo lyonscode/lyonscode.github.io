@@ -173,3 +173,9 @@ Logging in to nobody, we visit its "nonexistent" home directory and take a look 
 Reading the .youfoundme file with `cat` reveals our second and final flag for this room.
 
 **Answer**: \*\*\*{\*\*\*\*\*\*\*\*\*\*\*\*\**}
+
+## EOF
+
+This was a fun one that helped demonstrate a few interesting ways an attacker can maintain access to a system.  I think the room gave enough direction to guide the user without giving too much away.
+
+Thanks for reading!
