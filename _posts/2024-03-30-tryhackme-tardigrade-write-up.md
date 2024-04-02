@@ -8,12 +8,15 @@ image: /assets/img/uploads/tardigrade-760x399-final.png
 optimized_image: /assets/img/uploads/tardigrade-760x399-final.png
 category: write-up
 tags:
-  - tryhackme
   - tardigrade
+  - tryhackme
   - write-up
   - walkthrough
   - linux
   - incident-response
+  - infosec
+  - cybersecurity
+  - soc-analyst
 author: Michael
 paginate: false
 ---
