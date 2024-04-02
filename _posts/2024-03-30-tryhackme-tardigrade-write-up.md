@@ -12,6 +12,8 @@ tags:
   - tardigrade
   - write-up
   - walkthrough
+  - linux
+  - incident-response
 author: Michael
 paginate: false
 ---
