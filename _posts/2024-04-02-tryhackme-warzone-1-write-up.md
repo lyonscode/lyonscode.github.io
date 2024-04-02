@@ -5,7 +5,8 @@ title: TryHackMe - Warzone 1 - Write-Up
 subtitle: "You received an IDS/IPS alert. Time to triage the alert to determine
   if its a true positive. "
 description: A write-up and walkthrough of the TryHackMe room Warzone 1
-image: /assets/img/uploads/task2.png
+image: /assets/img/uploads/task2-760x399.png
+optimized_image: /assets/img/uploads/task2.png
 category: write-up
 tags:
   - warzone-1
