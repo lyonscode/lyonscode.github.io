@@ -30,4 +30,14 @@ The TryHackMe room Warzone 1 can be found [here](https://tryhackme.com/r/room/wa
 >
 > A few minutes into your shift, you get your first network case: **Potentially Bad Traffic** and **Malware Command and Control Activity detected**.  Your race against the clock starts. Inspect the PCAP and retrieve the artifacts to confirm this alert is a true positive. 
 
+Today we’ll be looking at the TryHackMe room Warzone 1 and trying to determine if an alert we received is a false positive or the symptom of something more serious. Let’s get started!
+
+Booting up the VM, we are greeted with a Linux desktop:
+
+![Linux desktop](/assets/img/uploads/initial-desktop.png "Linux desktop")
+
+Of note, this desktop contains a packet capture file and folder titled "Tools".
+
+Let's start with our first challenge question.
+
 **What was the alert signature for Malware Command and Control Activity Detected?**
