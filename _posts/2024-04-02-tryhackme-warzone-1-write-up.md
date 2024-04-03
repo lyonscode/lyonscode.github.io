@@ -38,6 +38,6 @@ Booting up the VM, we are greeted with a Linux desktop:
 
 Of note, this desktop contains a packet capture file and folder titled "Tools".
 
-Let's start with our first challenge question.
+Let's look at our first challenge question.
 
 **What was the alert signature for Malware Command and Control Activity Detected?**
