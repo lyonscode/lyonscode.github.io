@@ -21,6 +21,9 @@ tags:
   - ids
   - ips
   - brim
+  - wireshark
+  - logs
+  - log-analysis
 author: Michael
 paginate: false
 ---
