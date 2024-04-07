@@ -41,3 +41,5 @@ Of note, this desktop contains a packet capture file and folder titled "Tools".
 Let's look at our first challenge question.
 
 **What was the alert signature for Malware Command and Control Activity Detected?**
+
+We begin by opening the provided Zone1.pcap file in Brim.
