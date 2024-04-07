@@ -45,4 +45,8 @@ Let's look at our first challenge question.
 
 **What was the alert signature for Malware Command and Control Activity Detected?**
 
-We begin by opening the provided `Zone1.pcap` file in Brim.
+We begin by opening the provided `Zone1.pcap` file in Brim:
+
+![Zone1.pcap in Brim](/assets/img/uploads/zone1.pcap.png "Zone1.pcap in Brim")
+
+"Malware Command and Control Activity Detected"
