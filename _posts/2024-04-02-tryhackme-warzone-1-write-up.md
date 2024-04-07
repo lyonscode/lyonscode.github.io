@@ -39,10 +39,10 @@ Booting up the VM, we are greeted with a Linux desktop:
 
 ![Linux desktop](/assets/img/uploads/initial-desktop.png "Linux desktop")
 
-Of note, this desktop contains a packet capture file and folder titled "Tools".
+Of note, this desktop contains a packet capture file and folder titled "Tools" which contains an installation of Brim and Wireshark -- both of which will prove critical in our log analysis.
 
 Let's look at our first challenge question.
 
 **What was the alert signature for Malware Command and Control Activity Detected?**
 
-We begin by opening the provided Zone1.pcap file in Brim.
+We begin by opening the provided `Zone1.pcap` file in Brim.
