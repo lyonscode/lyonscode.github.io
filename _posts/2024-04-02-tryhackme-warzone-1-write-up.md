@@ -49,7 +49,13 @@ We begin by opening the provided `Zone1.pcap` file in Brim:
 
 ![Zone1.pcap in Brim](/assets/img/uploads/zone1.pcap.png "Zone1.pcap in Brim")
 
-"Malware Command and Control Activity Detected"
+Right away, we can see an alert with the category "Malware Command and Control Activity Detected" in it, but to make it more clear, let's search the phrase and display only those results:
+
+![ET MALWARE MirrorBlast CnC Activity M3](/assets/img/uploads/et-malware-mirrorblast-cnc-activity-m3.png "ET MALWARE MirrorBlast CnC Activity M3")
+
+In this, we can see our answer in the `alert.signature` column:
+
+**Answer:** `ET MALWARE MirrorBlast CnC Activity M3`
 
 **What is the source IP address? Enter your answer in a *defanged* format.** 
 
