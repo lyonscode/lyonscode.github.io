@@ -50,3 +50,23 @@ We begin by opening the provided `Zone1.pcap` file in Brim:
 ![Zone1.pcap in Brim](/assets/img/uploads/zone1.pcap.png "Zone1.pcap in Brim")
 
 "Malware Command and Control Activity Detected"
+
+What is the source IP address? Enter your answer in a **defanged** format. 
+
+What IP address was the destination IP in the alert? Enter your answer in a **defanged** format.
+
+Still in VirusTotal, under **Community**, what threat group is attributed to this IP address?
+
+What is the malware family?
+
+Do a search in VirusTotal for the domain from question 4. What was the majority file type listed under **Communicating Files**?
+
+Inspect the web traffic for the flagged IP address; what is the **user-agent** in the traffic?
+
+Retrace the attack; there were multiple IP addresses associated with this attack. What were two other IP addresses? Enter the IP addressed **defanged** and in numerical order. (**format: IPADDR,IPADDR**)
+
+What were the file names of the downloaded files? Enter the answer in the order to the IP addresses from the previous question. (**format: file.xyz,file.xyz**)
+
+Inspect the traffic for the first downloaded file from the previous question. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (**format: C:\path\file.xyz,C:\path\file.xyz**)
+
+Now do the same and inspect the traffic from the second downloaded file. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (format: C:\path\file.xyz,C:\path\file.xyz)
