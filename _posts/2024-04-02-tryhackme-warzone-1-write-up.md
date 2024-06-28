@@ -76,3 +76,7 @@ In this, we can see our answer in the `alert.signature` column:
 **Inspect the traffic for the first downloaded file from the previous question. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xy*z)**
 
 **Now do the same and inspect the traffic from the second downloaded file. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xyz*)**
+
+
+
+Tools used: Brim, Wireshark
