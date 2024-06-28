@@ -39,7 +39,7 @@ Booting up the VM, we are greeted with a Linux desktop:
 
 ![Linux desktop](/assets/img/uploads/initial-desktop.png "Linux desktop")
 
-Of note, this desktop contains a packet capture file and folder titled "Tools" which contains an installation of Brim and Wireshark -- both of which will prove critical in our log analysis.
+Of note, this desktop contains a packet capture file called `Zone1.pcap` and folder titled "Tools" which contains an installation of Brim and Wireshark -- both of which will prove critical in our log analysis.
 
 Let's look at our first challenge question.
 
@@ -63,11 +63,13 @@ In the same image, we can see the answer...
 
 ![Source IP](/assets/img/uploads/src_ip.png "Source IP")
 
-...but we'd like it in defanged, or rendered inert so it can't accidentally cause harm during our investigation. 
+...but we'd like it defanged, or rendered inert so it can't accidentally cause harm during our investigation. 
 
- That's no problem to do on our own -- just put brackets around each period -- but we can use a tool like CyberChef if ~~we're lazy~~ we want to be sure we did it right.
+ That's no problem to do on our own -- just put brackets around each period -- but we can use a tool like [CyberChef](https://cyberchef.org/#recipe=Defang_IP_Addresses()) if ~~we're lazy~~ we want to be sure we did it right:
 
 
+
+**Answer:** 172\[.]16\[.]1\[.]102
 
 **What IP address was the destination IP in the alert? Enter your answer in a *defanged* format.**
 
