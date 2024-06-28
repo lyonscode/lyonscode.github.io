@@ -59,6 +59,16 @@ In this, we can see our answer in the `alert.signature` column:
 
 **What is the source IP address? Enter your answer in a *defanged* format.** 
 
+In the same image, we can see the answer...
+
+![Source IP](/assets/img/uploads/src_ip.png "Source IP")
+
+...but we'd like it in defanged, or rendered inert so it can't accidentally cause harm during our investigation. 
+
+ That's no problem to do on our own -- just put brackets around each period -- but we can use a tool like CyberChef if ~~we're lazy~~ we want to be sure we did it right.
+
+
+
 **What IP address was the destination IP in the alert? Enter your answer in a *defanged* format.**
 
 **Still in VirusTotal, under *Community*, what threat group is attributed to this IP address?**
@@ -76,7 +86,5 @@ In this, we can see our answer in the `alert.signature` column:
 **Inspect the traffic for the first downloaded file from the previous question. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xy*z)**
 
 **Now do the same and inspect the traffic from the second downloaded file. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xyz*)**
-
-
 
 Tools used: Brim, Wireshark
