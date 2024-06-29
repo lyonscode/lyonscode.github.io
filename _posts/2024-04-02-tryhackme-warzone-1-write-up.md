@@ -67,13 +67,27 @@ In the same image, we can see the answer...
 
  That's no problem to do on our own -- just put brackets around each period -- but we can use a tool like [CyberChef](https://cyberchef.org/#recipe=Defang_IP_Addresses()) if ~~we're lazy~~ we want to be sure we did it right:
 
-
+![Source IP defanged in CyberChef](/assets/img/uploads/src_ip-cyberchef-defanged.png "Source IP defanged in CyberChef")
 
 **Answer:** 172\[.]16\[.]1\[.]102
 
 **What IP address was the destination IP in the alert? Enter your answer in a *defanged* format.**
 
+Next to the source IP, we can find the destination IP:
+
+![Destination IP](/assets/img/uploads/dest_ip.png "Destination IP")
+
+And again we can use CyberChef to defang:
+
+![Destination IP defanged in CyberChef](/assets/img/uploads/dest_ip-cyberchef-defanged.png "Destination IP defanged in CyberChef")
+
+**Answer:** 169\[.]239\[.]128\[.]11
+
 **Still in VirusTotal, under *Community*, what threat group is attributed to this IP address?**
+
+Switching to [VirusTotal](www.virustotal.com), we can search up the destination IP address and find some information about it:
+
+![TA505](/assets/img/uploads/threat-group-on-virustotal-ta505.png "TA505")
 
 **What is the malware family?**
 
@@ -89,4 +103,4 @@ In the same image, we can see the answer...
 
 **Now do the same and inspect the traffic from the second downloaded file. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xyz*)**
 
-Tools used: Brim, Wireshark
+Tools used: Brim, VirusTotal, Wireshark
