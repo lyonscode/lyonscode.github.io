@@ -63,7 +63,7 @@ In the same image, we can see the answer...
 
 ![Source IP](/assets/img/uploads/src_ip.png "Source IP")
 
-...but we'd like it defanged, or rendered inert so it can't accidentally cause harm during our investigation. 
+...but we'd like it defanged, or rendered inert, so it can't accidentally cause harm during our investigation. 
 
  That's no problem to do on our own -- just put brackets around each period -- but we can use a tool like [CyberChef](https://cyberchef.org/#recipe=Defang_IP_Addresses()) if ~~we're lazy~~ we want to be sure we did it right:
 
