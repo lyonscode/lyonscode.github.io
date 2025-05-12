@@ -6,7 +6,7 @@ title: About
 permalink: /about/
 description: Some description.
 ---
-<img class="img-rounded" src="/assets/img/uploads/lyons_code.png" alt="lyons_code" width="200">
+<img class="img-rounded" src="/assets/img/uploads/1719615464952.jpg" alt="lyons_code" width="200">
 
 # About
 
