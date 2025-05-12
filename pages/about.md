@@ -1,7 +1,7 @@
 ---
 layout: page
 menu: false
-date: 2020-02-27 01:53:59
+date: 2025-05-12 16:55:00
 title: About
 permalink: /about/
 description: Some description.
