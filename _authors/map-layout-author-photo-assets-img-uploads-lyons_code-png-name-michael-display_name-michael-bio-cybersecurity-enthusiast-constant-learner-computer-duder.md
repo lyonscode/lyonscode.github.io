@@ -7,4 +7,5 @@ bio: |
   CySA+ | Security+ | ISC2 CC | IT Systems Manager
 
   Cybersecurity enthusiast, constant learner, computer duder
+linkedin_username: https://www.linkedin.com/in/lyonscode/
 ---
