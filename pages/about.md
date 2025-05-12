@@ -1,12 +1,12 @@
 ---
 layout: page
 menu: false
-date: 2020-02-27 01:53:59
+date: 2025-05-12 16:55:00
 title: About
 permalink: /about/
 description: Some description.
 ---
-<img class="img-rounded" src="/assets/img/uploads/lyons_code.png" alt="lyons_code" width="200">
+<img class="img-rounded" src="/assets/img/uploads/1719615464952.jpg" alt="lyons_code" width="200">
 
 # About
 
