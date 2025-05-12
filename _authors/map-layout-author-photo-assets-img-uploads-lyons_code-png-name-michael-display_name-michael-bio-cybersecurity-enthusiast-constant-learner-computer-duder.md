@@ -1,10 +1,11 @@
 ---
 layout: author
-photo: /assets/img/uploads/lyons_code.png
+photo: /assets/img/uploads/1719615464952.jpg
 name: Michael
 display_name: Michael
 bio: |
-  Security+ | ISC2 CC | IT Support Engineer
+  CySA+ | Security+ | ISC2 CC | IT Systems Manager
 
   Cybersecurity enthusiast, constant learner, computer duder
+linkedin_username: https://www.linkedin.com/in/lyonscode/
 ---
