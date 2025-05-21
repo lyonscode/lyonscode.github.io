@@ -29,7 +29,11 @@ The question is asking about the Reconnaissance and Initial Access phases of an 
 
 ![](/assets/img/uploads/recon-and-initial-access.png)
 
-**Answer:** 
+We then need to find one technique that is shared by both.  A quick survey of both columns finds us our answer.
+
+![](/assets/img/uploads/spearphishing-link.png)
+
+**Answer:** Spearphishing link
 
 **Sunny identified that the APT might have moved forward from the recon phase. Which accounts might the APT compromise while developing resources?**
 
