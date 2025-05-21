@@ -15,19 +15,19 @@ The TryHackMe room "Eviction" can be found [here](https://tryhackme.com/room/evi
 >
 > Please visit [this link](https://static-labs.tryhackme.cloud/sites/eviction/) to check out the MITRE ATT&CK Navigator layer for the APT group and answer the questions below.
 
+The primary purpose of this room is to practice utilizing the MITRE ATT&CK Navigator to identify the tactics, techniques, and procedures of known threat groups.  In this instance, APT28 is our subject.
+
 Visiting the provided link takes us to this site:
 
 ![](/assets/img/uploads/mitre-att-ck-navigator-apt28.png "MITRE ATT&CK Navigator - APT28")
 
-This is where we will find our answers.
-
-The primary purpose of this room is to practice utilizing the MITRE ATT&CK Navigator to identify the tactics, techniques, and procedures of known threat groups.  In this instance, APT28 is our subject.
-
-
+This is where we will find our answers!
 
 **What is a technique used by the APT to both perform recon and gain initial access?**
 
+The question is asking about the Reconnaissance and Initial Access phases of an attack, so we will look in the columns of the same names, the first and third of the Navigator.
 
+![](/assets/img/uploads/recon-and-initial-access.png)
 
 **Answer:** 
 
