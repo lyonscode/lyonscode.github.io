@@ -9,7 +9,13 @@ category: write-up
 author: Michael
 paginate: false
 ---
-The TryHackMe room Eviction can be found [here](https://tryhackme.com/room/eviction).
+The TryHackMe room "Eviction" can be found [here](https://tryhackme.com/room/eviction).
+
+
+
+The primary purpose of this room is to practice utilizing the MITRE ATT&CK Navigator to identify the tactics, techniques, and procedures of known threat groups.  In this instance, APT28 is our subject.
+
+
 
 
 
