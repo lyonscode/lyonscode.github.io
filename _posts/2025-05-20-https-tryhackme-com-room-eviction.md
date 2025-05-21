@@ -69,4 +69,6 @@ We then need to find one technique that is shared by both.  A quick survey of bo
 
 **Although the APT had collected the data, it could not connect to the C2 for data exfiltration. To thwart any attempts to do that, what types of proxy might the APT use? (Answer format: <technique 1> and <technique 2>)**
 
-**Answer:**
+**Answer:** 
+
+Tools used: MITRE ATT&CK Navigator
