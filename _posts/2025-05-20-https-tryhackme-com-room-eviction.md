@@ -117,4 +117,6 @@ This was a pretty simple room, but a nice taste of using the MITRE ATT&CK Naviga
 
 The Navigator has a lot of information to share, so it can feel a little daunting to make sense of it.  With just a bit of practice, though, it becomes easy to make sense of and extract valuable information for an investigation!
 
+![](/assets/img/uploads/skilled-navigator-badge.png "Badge for completing TryHackMe room Eviction")
+
 Tools used: MITRE ATT&CK Navigator
