@@ -1,5 +1,5 @@
 ---
-date: 2024-03-30 21:45:23
+date: 2025-06-04 13:00:03
 layout: post
 title: TryHackMe - Tardigrade - Write-Up
 subtitle: Can you find all the basic persistence mechanisms in this Linux endpoint?
