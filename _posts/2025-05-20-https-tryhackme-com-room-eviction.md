@@ -41,7 +41,7 @@ To answer this question, we need only find information about account compromises
 
 ![](/assets/img/uploads/resource-development-email-accounts.png)
 
- 
+From this chart, we see APT28 is known for compromising email accounts.
 
 **Answer:** Email accounts
 
