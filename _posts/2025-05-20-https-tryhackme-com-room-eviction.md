@@ -67,7 +67,7 @@ We can find the answer in the Execution column, once again:
 
 **While looking at the scripting interpreters identified in Q4, Sunny found some obfuscated scripts that changed the registry. Assuming these changes are for maintaining persistence, which registry keys should Sunny observe to track these changes?**
 
-The set-up in this question guides us to look information about the registry in the Persistence column.  Without much effort, we find the Boot or Logon Autostart Execution category has a highlighted section.
+The set-up in this question guides us to look information about the registry in the Persistence column.  Without much effort, we find the Boot or Logon Autostart Execution technique has a highlighted section.
 
 ![](/assets/img/uploads/persistence-registry-run-keys.png)
 
@@ -77,7 +77,17 @@ While this section mentions startup folders as well, the question only asks abou
 
 **Sunny identified that the APT executes system binaries to evade defences. Which system binary's execution should Sunny scrutinize for proxy execution?**
 
-**Answer: \_\_\_\_\_\_\_\_**
+We're looking for information on Defense Evasion, so we'll look under the category of the same name.
+
+![](/assets/img/uploads/defense-evasion.png)
+
+There are 42 techniques available in this column, so we'll have to scroll to find our answer.
+
+Nearer to bottom we find a technique titled System Binary Proxy Execution -- exactly what the question asks about.  In this technique, there is only one item associated with APT28.
+
+![](/assets/img/uploads/defense-evasion-rundll32.png)
+
+**Answer:** Rundll32
 
 **Sunny identified tcpdump on one of the compromised hosts. Assuming this was placed there by the threat actor, which technique might the APT be using here for discovery?**
 
