@@ -20,7 +20,7 @@ tags:
 author: Michael
 paginate: false
 ---
-NOTE: This version has answers in plain text.  If you're looking for guidance without spoilers, a version of this write-up can be found here.
+NOTE: This version has answers in plain text.  If you're just looking for guidance, a version of this write-up without explicit answers can be found here.
 
 The TryHackMe room Tardigrade can be found [here](https://tryhackme.com/r/room/tardigrade).
 
