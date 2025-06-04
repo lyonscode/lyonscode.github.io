@@ -1,5 +1,5 @@
 ---
-date: 2025-05-20 11:03:59
+date: 2025-06-04 13:42:20
 layout: post
 title: TryHackMe - Eviction - Write-Up
 subtitle: Unearth the monster from under your bed.
@@ -67,7 +67,13 @@ We can find the answer in the Execution column, once again:
 
 **While looking at the scripting interpreters identified in Q4, Sunny found some obfuscated scripts that changed the registry. Assuming these changes are for maintaining persistence, which registry keys should Sunny observe to track these changes?**
 
-**Answer: \_\_\_\_\_\_\_\_ \_\_\_ \_\_\__**
+The set-up in this question guides us to look information about the registry in the Persistence column.  Without much effort, we find the Boot or Logon Autostart Execution category has a highlighted section.
+
+![](/assets/img/uploads/persistence-registry-run-keys.png)
+
+While this section mentions startup folders as well, the question only asks about the registry, so we will stick with only the registry part in our answer.
+
+**Answer:** Registry Run Keys
 
 **Sunny identified that the APT executes system binaries to evade defences. Which system binary's execution should Sunny scrutinize for proxy execution?**
 
