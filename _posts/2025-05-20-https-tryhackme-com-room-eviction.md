@@ -107,4 +107,6 @@ Nearer to bottom we find a technique titled System Binary Proxy Execution -- exa
 
 This was a pretty simple room, but a nice taste of using the MITRE ATT&CK Navigator to identify potential threats to an organization.
 
+The Navigator has a lot of information to share, so it can feel a little daunting to make sense of it.  With just a bit of practice, though, it becomes easy to make sense of and extract valuable information for an investigation!
+
 Tools used: MITRE ATT&CK Navigator
