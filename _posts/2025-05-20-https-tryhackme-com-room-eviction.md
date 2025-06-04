@@ -95,7 +95,7 @@ This question might require outside research.  We know we're looking for an answ
 
 ![](/assets/img/uploads/tcpdump-duckduckgo-search.png "DuckDuckHo search for tcpdump")
 
-Ah, yes! It's a command line packet analyzer.  Packet analyzers might also be referred to ask "network sniffers".  And would you look at what we have as a technique under the Discovery column:
+Ah, yes! It's a command line packet analyzer.  Packet analyzers might also be referred to as "network sniffers".  And would you look at what we have as a technique under the Discovery column:
 
 ![](/assets/img/uploads/discovery-network-sniffing.png)
 
@@ -103,7 +103,13 @@ Ah, yes! It's a command line packet analyzer.  Packet analyzers might also be re
 
 **It looks like the APT achieved lateral movement by exploiting remote services. Which remote services should Sunny observe to identify APT activity traces?**
 
-**Answer: \_\_\_/\_\_\_\_\_\_\_ \_\_\_\__ \_\_\_\_\_\_**
+Under the Lateral Movement column, there is a technique called Remote Services where can find our answer:
+
+![](/assets/img/uploads/lateral-movement-smb-windows-admin-shares.png)
+
+Simple enough!
+
+**Answer:** SMB/Windows Admin Shares
 
 **It looked like the primary goal of the APT was to steal intellectual property from E-corp's information repositories. Which information repository can be the likely target of the APT?**
 
