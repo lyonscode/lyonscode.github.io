@@ -47,7 +47,13 @@ From this chart, we see APT28 is known for compromising email accounts.
 
 **E-corp has found that the APT might have gained initial access using social engineering to make the user execute code for the threat actor. Sunny wants to identify if the APT was also successful in execution. What two techniques of user execution should Sunny look out for? (Answer format: <technique 1> and <technique 2>)**
 
-**Answer: \_\_\_\_\_\_\_\__ \_\_\_\_ \_\_\_ \_\_\_\_\_\_\_\_\_ \_\_\_\_**
+We now want to shift the to the Execution column and focus on methods of User Execution in particular.
+
+![](/assets/img/uploads/execution-user-execution-malicious-file-and-malicious-link.png)
+
+APT28 is known for using malicious files and links to trick users into executing code.
+
+**Answer:** Malicious file and malicious link
 
 **If the above technique was successful, which scripting interpreters should Sunny search for to identify successful execution? (Answer format: <technique 1> and <technique 2>)**
 
@@ -75,6 +81,8 @@ From this chart, we see APT28 is known for compromising email accounts.
 
 **Although the APT had collected the data, it could not connect to the C2 for data exfiltration. To thwart any attempts to do that, what types of proxy might the APT use? (Answer format: <technique 1> and <technique 2>)**
 
-**Answer:** 
+**Answer:** External proxy and multi-hop proxy
+
+This was a pretty simple room, but a nice taste of using the MITRE ATT&CK Navigator to identify potential threats to an organization.
 
 Tools used: MITRE ATT&CK Navigator
