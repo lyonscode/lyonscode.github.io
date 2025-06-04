@@ -113,13 +113,25 @@ Simple enough!
 
 **It looked like the primary goal of the APT was to steal intellectual property from E-corp's information repositories. Which information repository can be the likely target of the APT?**
 
-**Answer: \_\_\_\_\_\_\_\_\_\_**
+Since the question asks about data theft, we are likely going to find our answer in the Collection column of the Navigator.
+
+Indeed there is a technique referencing Data From Information Repositories, with only one option related to APT28.
+
+![](/assets/img/uploads/collection-sharepoint.png)
+
+**Answer:** Sharepoint
 
 **Although the APT had collected the data, it could not connect to the C2 for data exfiltration. To thwart any attempts to do that, what types of proxy might the APT use? (Answer format: <technique 1> and <technique 2>)**
 
-**Answer:** External proxy and multi-hop proxy
+Lastly, we are looking for information related to C2 (or Command and Control) servers, specifically about why kind of proxies APT28 is known to use.
 
-This was a pretty simple room, but a nice taste of using the MITRE ATT&CK Navigator to identify potential threats to an organization.
+In the Command and Control column, we find our answers.
+
+![](/assets/img/uploads/c2-proxies.png)
+
+**Answer:** External Proxy and Multi-hop Proxy
+
+This was a pretty straightforward room, but a nice taste of using the MITRE ATT&CK Navigator to identify potential threats to an organization.
 
 The Navigator has a lot of information to share, so it can feel a little daunting to make sense of it.  With just a bit of practice, though, it becomes easy to make sense of and extract valuable information for an investigation!
 
