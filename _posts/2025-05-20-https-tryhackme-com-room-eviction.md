@@ -57,7 +57,7 @@ APT28 is known for using malicious files and links to trick users into executing
 
 **If the above technique was successful, which scripting interpreters should Sunny search for to identify successful execution? (Answer format: <technique 1> and <technique 2>)**
 
-If APT28's files or links are used, the malicious scripts will need to run through some sort of interpreter.  This question asks us to what the threat actor has been known to use.
+If APT28's files or links are used, the malicious scripts will need to run through some sort of interpreter to execute.  This question asks us to what the threat actor has been known to use.
 
 We can find the answer in the Execution column, once again:
 
