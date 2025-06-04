@@ -91,7 +91,15 @@ Nearer to bottom we find a technique titled System Binary Proxy Execution -- exa
 
 **Sunny identified tcpdump on one of the compromised hosts. Assuming this was placed there by the threat actor, which technique might the APT be using here for discovery?**
 
-**Answer: \_\_\_\_\_\_\_ \_\_\_\_\_\_\__**
+This question might require outside research.  We know we're looking for an answer in the Discovery column, but, remind me, what does `tcpdump` do?
+
+![](/assets/img/uploads/tcpdump-duckduckgo-search.png "DuckDuckHo search for tcpdump")
+
+Ah, yes! It's a command line packet analyzer.  Packet analyzers might also be referred to ask "network sniffers".  And would you look at what we have as a technique under the Discovery column:
+
+![](/assets/img/uploads/discovery-network-sniffing.png)
+
+**Answer:** Network Sniffing
 
 **It looks like the APT achieved lateral movement by exploiting remote services. Which remote services should Sunny observe to identify APT activity traces?**
 
