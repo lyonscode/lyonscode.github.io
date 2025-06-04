@@ -37,7 +37,13 @@ We then need to find one technique that is shared by both.  A quick survey of bo
 
 **Sunny identified that the APT might have moved forward from the recon phase. Which accounts might the APT compromise while developing resources?**
 
-**Answer: \_\_\_\_\_ \_\_\_\_\____**
+To answer this question, we need only find information about account compromises under the Resource Development section.
+
+![](/assets/img/uploads/resource-development-email-accounts.png)
+
+ 
+
+**Answer:** Email accounts
 
 **E-corp has found that the APT might have gained initial access using social engineering to make the user execute code for the threat actor. Sunny wants to identify if the APT was also successful in execution. What two techniques of user execution should Sunny look out for? (Answer format: <technique 1> and <technique 2>)**
 
