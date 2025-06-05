@@ -1,5 +1,5 @@
 ---
-date: 2024-04-02 12:28:39
+date: 2025-06-05 16:18:09
 layout: post
 title: TryHackMe - Warzone 1 - Write-Up
 subtitle: "You received an IDS/IPS alert. Time to triage the alert to determine
