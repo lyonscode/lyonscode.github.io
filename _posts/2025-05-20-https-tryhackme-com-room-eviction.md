@@ -24,7 +24,7 @@ Visiting the provided link takes us to this site:
 
 This is where we will find our answers!
 
-**What is a technique used by the APT to both perform recon and gain initial access?**
+### **What is a technique used by the APT to both perform recon and gain initial access?**
 
 The question is asking about the Reconnaissance and Initial Access phases of an attack, so we will look in the columns of the same names, the first and third of the Navigator.
 
@@ -36,7 +36,7 @@ We then need to find one technique that is shared by both.  A quick survey of bo
 
 **Answer:** Spearphishing link
 
-**Sunny identified that the APT might have moved forward from the recon phase. Which accounts might the APT compromise while developing resources?**
+### **Sunny identified that the APT might have moved forward from the recon phase. Which accounts might the APT compromise while developing resources?**
 
 To answer this question, we need only find information about account compromises under the Resource Development section.
 
@@ -46,7 +46,7 @@ From this chart, we see APT28 is known for compromising email accounts.
 
 **Answer:** Email accounts
 
-**E-corp has found that the APT might have gained initial access using social engineering to make the user execute code for the threat actor. Sunny wants to identify if the APT was also successful in execution. What two techniques of user execution should Sunny look out for? (Answer format: <technique 1> and <technique 2>)**
+### **E-corp has found that the APT might have gained initial access using social engineering to make the user execute code for the threat actor. Sunny wants to identify if the APT was also successful in execution. What two techniques of user execution should Sunny look out for? (Answer format: <technique 1> and <technique 2>)**
 
 We now want to shift the to the Execution column and focus on methods of User Execution in particular.
 
@@ -56,7 +56,7 @@ APT28 is known for using malicious files and links to trick users into executing
 
 **Answer:** Malicious file and malicious link
 
-**If the above technique was successful, which scripting interpreters should Sunny search for to identify successful execution? (Answer format: <technique 1> and <technique 2>)**
+### **If the above technique was successful, which scripting interpreters should Sunny search for to identify successful execution? (Answer format: <technique 1> and <technique 2>)**
 
 If APT28's files or links are used, the malicious scripts will need to run through some sort of interpreter to execute.  This question asks us to what the threat actor has been known to use.
 
@@ -66,7 +66,7 @@ We can find the answer in the Execution column, once again:
 
 **Answer:** PowerShell and Windows Command Shell
 
-**While looking at the scripting interpreters identified in Q4, Sunny found some obfuscated scripts that changed the registry. Assuming these changes are for maintaining persistence, which registry keys should Sunny observe to track these changes?**
+### **While looking at the scripting interpreters identified in Q4, Sunny found some obfuscated scripts that changed the registry. Assuming these changes are for maintaining persistence, which registry keys should Sunny observe to track these changes?**
 
 The set-up in this question guides us to look information about the registry in the Persistence column.  Without much effort, we find the Boot or Logon Autostart Execution technique has a highlighted section.
 
@@ -76,7 +76,7 @@ While this section mentions startup folders as well, the question only asks abou
 
 **Answer:** Registry Run Keys
 
-**Sunny identified that the APT executes system binaries to evade defences. Which system binary's execution should Sunny scrutinize for proxy execution?**
+### **Sunny identified that the APT executes system binaries to evade defences. Which system binary's execution should Sunny scrutinize for proxy execution?**
 
 We're looking for information on Defense Evasion, so we'll look under the category of the same name.
 
@@ -90,7 +90,7 @@ Nearer to bottom we find a technique titled System Binary Proxy Execution -- exa
 
 **Answer:** Rundll32
 
-**Sunny identified tcpdump on one of the compromised hosts. Assuming this was placed there by the threat actor, which technique might the APT be using here for discovery?**
+### **Sunny identified tcpdump on one of the compromised hosts. Assuming this was placed there by the threat actor, which technique might the APT be using here for discovery?**
 
 This question might require outside research.  We know we're looking for an answer in the Discovery column, but, remind me, what does `tcpdump` do?
 
@@ -102,7 +102,7 @@ Ah, yes! It's a command line packet analyzer.  Packet analyzers might also be re
 
 **Answer:** Network Sniffing
 
-**It looks like the APT achieved lateral movement by exploiting remote services. Which remote services should Sunny observe to identify APT activity traces?**
+### **It looks like the APT achieved lateral movement by exploiting remote services. Which remote services should Sunny observe to identify APT activity traces?**
 
 Under the Lateral Movement column, there is a technique called Remote Services where can find our answer:
 
@@ -112,7 +112,7 @@ Simple enough!
 
 **Answer:** SMB/Windows Admin Shares
 
-**It looked like the primary goal of the APT was to steal intellectual property from E-corp's information repositories. Which information repository can be the likely target of the APT?**
+### **It looked like the primary goal of the APT was to steal intellectual property from E-corp's information repositories. Which information repository can be the likely target of the APT?**
 
 Since the question asks about data theft, we are likely going to find our answer in the Collection column of the Navigator.
 
@@ -122,7 +122,7 @@ Indeed there is a technique referencing Data From Information Repositories, with
 
 **Answer:** Sharepoint
 
-**Although the APT had collected the data, it could not connect to the C2 for data exfiltration. To thwart any attempts to do that, what types of proxy might the APT use? (Answer format: <technique 1> and <technique 2>)**
+### **Although the APT had collected the data, it could not connect to the C2 for data exfiltration. To thwart any attempts to do that, what types of proxy might the APT use? (Answer format: <technique 1> and <technique 2>)**
 
 Lastly, we are looking for information related to C2 (or Command and Control) servers, specifically about why kind of proxies APT28 is known to use.
 
@@ -131,6 +131,8 @@ In the Command and Control column, we find our answers.
 ![](/assets/img/uploads/c2-proxies.png)
 
 **Answer:** External Proxy and Multi-hop Proxy
+
+## EOF
 
 This was a pretty straightforward room, but a nice taste of using the MITRE ATT&CK Navigator to identify potential threats to an organization.
 
