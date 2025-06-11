@@ -183,8 +183,8 @@ We need only repeat this process for the second downloaded file.
 
 **Answer**: `C:\ProgramData\Local\Google\rebol-view-278-3-1.exe`, `C:\ProgramData\Local\Google\exemple.rb`
 
-## Conclusion
+## EOF
 
-With all this information we've come up with, we can confirm this is a true positive found by our IDS/IPS. 
+With all this information we've come up with, we can confirm this is a true positive found by our IDS/IPS!  Our next steps would be to begin remediating the observed affects of the intrusion, but that is outside the scope of this room.
 
 Tools used: Brim, VirusTotal, Wireshark
