@@ -43,7 +43,7 @@ Of note, this desktop contains a packet capture file called `Zone1.pcap` and fol
 
 Let's look at our first challenge question.
 
-**What was the alert signature for *Malware Command and Control Activity Detected*?**
+### **What was the alert signature for *Malware Command and Control Activity Detected*?**
 
 We begin by opening the provided `Zone1.pcap` file in Brim:
 
@@ -57,7 +57,7 @@ In this, we can see our answer in the `alert.signature` column:
 
 **Answer:** `ET MALWARE MirrorBlast CnC Activity M3`
 
-**What is the source IP address? Enter your answer in a *defanged* format.** 
+### **What is the source IP address? Enter your answer in a *defanged* format.** 
 
 In the same image, we can see the answer...
 
@@ -71,7 +71,7 @@ In the same image, we can see the answer...
 
 **Answer:** 172\[.]16\[.]1\[.]102
 
-**What IP address was the destination IP in the alert? Enter your answer in a *defanged* format.**
+### **What IP address was the destination IP in the alert? Enter your answer in a *defanged* format.**
 
 Next to the source IP, we can find the destination IP:
 
@@ -83,7 +83,7 @@ And again we can use CyberChef to defang:
 
 **Answer:** 169\[.]239\[.]128\[.]11
 
-**Still in VirusTotal, under *Community*, what threat group is attributed to this IP address?**
+### **Still in VirusTotal, under *Community*, what threat group is attributed to this IP address?**
 
 Switching to [VirusTotal](www.virustotal.com), we can search up the destination IP address and find some information about it:
 
@@ -97,7 +97,7 @@ Yep -- the MITRE ATT&CK framework has an [entry](https://attack.mitre.org/groups
 
 **Answer:** TA505
 
-**What is the malware family?**
+### **What is the malware family?**
 
 We can get the answer from the same page.  The *Community* tab keeps mentioning something called "MirrorBlast".
 
@@ -111,7 +111,7 @@ The above article from [Heimdal](https://heimdalsecurity.com/blog/mirrorblast-th
 
 **Answer:** MirrorBlast
 
-**Do a search in VirusTotal for the domain from question 4. What was the majority file type listed under *Communicating Files*?**
+### **Do a search in VirusTotal for the domain from question 4. What was the majority file type listed under *Communicating Files*?**
 
 This question asks up to switch to the *Relations* tab to look at *Communicating Files*.
 
@@ -121,9 +121,9 @@ Almost every one of the file types is a Windows Installer file.
 
 **Answer:** Windows Installer
 
-**Inspect the web traffic for the flagged IP address; what is the *user-agent* in the traffic?**
+### **Inspect the web traffic for the flagged IP address; what is the *user-agent* in the traffic?**
 
-We now turn to our friend Wireshark to inspect the provided PCAP file for web traffic.  We take the IP address we found earlier and search for HTTP requests it was involved with.
+We'll turn to our friend Wireshark to inspect the provided PCAP file for web traffic.  We take the IP address we found earlier and search for HTTP requests it was involved with.
 
 ![](/assets/img/uploads/wireshark-1.png)
 
@@ -133,12 +133,34 @@ Opening the highlighted packet and scrolling down to the Hypertext Transfer Prot
 
 **Answer:** REBOL View 2.7.8.3.1
 
-**Retrace the attack; there were multiple IP addresses associated with this attack. What were two other IP addresses? Enter the IP addressed *defanged* and in numerical order. (*format: IPADDR,IPADDR*)**
+### **Retrace the attack; there were multiple IP addresses associated with this attack. What were two other IP addresses? Enter the IP addressed *defanged* and in numerical order. (*format: IPADDR,IPADDR*)**
 
-**What were the file names of the downloaded files? Enter the answer in the order to the IP addresses from the previous question. (*format: file.xyz,file.xyz*)**
+Scrolling through the HTTP logs, we do see the Source make contact with some other IP addresses:
 
-**Inspect the traffic for the first downloaded file from the previous question. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xy*z)**
+![](/assets/img/uploads/wireshark-185.png)
 
-**Now do the same and inspect the traffic from the second downloaded file. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xyz*)**
+![](/assets/img/uploads/wireshark-192.png)
+
+**Answer**: 185\[.]10\[.]68\[.]235, 192\[.]36\[.]27\[.]92
+
+### **What were the file names of the downloaded files? Enter the answer in the order to the IP addresses from the previous question. (*format: file.xyz,file.xyz*)**
+
+The first file name takes a bit of digging, as we have to look in the response from 185\[.]10\[.]68\[.]235 to see the file's name...
+
+![](/assets/img/uploads/filter.png)
+
+...But the second one is plain as day without opening the packet.
+
+![](/assets/img/uploads/10opd3r.png)
+
+**Answer**: `filter.msi`, `10opd3r_load.msi`
+
+### **Inspect the traffic for the first downloaded file from the previous question. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xy*z)**
+
+
+
+**Answer**:
+
+### **Now do the same and inspect the traffic from the second downloaded file. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xyz*)**
 
 Tools used: Brim, VirusTotal, Wireshark
