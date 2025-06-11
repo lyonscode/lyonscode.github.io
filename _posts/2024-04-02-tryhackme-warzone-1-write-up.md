@@ -89,7 +89,27 @@ Switching to [VirusTotal](www.virustotal.com), we can search up the destination 
 
 ![TA505](/assets/img/uploads/threat-group-on-virustotal-ta505.png "TA505")
 
+TA505?  That sounds like a threat actor designation.
+
+![](/assets/img/uploads/ta505-mitre-att-ck-.png)
+
+Yep -- the MITRE ATT&CK framework has an [entry](https://attack.mitre.org/groups/G0092/) on these guys.  There's our answer.
+
+**Answer:** TA505
+
 **What is the malware family?**
+
+We can get the answer from the same page.  The *Community* tab keeps mentioning something called "MirrorBlast".
+
+![](/assets/img/uploads/mirrorblast.png)
+
+Seems heavily associated with TA505, worth looking into.
+
+![](/assets/img/uploads/heimdal-mirrorblast-ta505.png)
+
+The above article from [Heimdal](https://heimdalsecurity.com/blog/mirrorblast-the-new-phishing-campaign-targeting-financial-organizations/) tells about how TA505 is using MirrorBlast 
+
+**Answer:** MirrorBlast
 
 **Do a search in VirusTotal for the domain from question 4. What was the majority file type listed under *Communicating Files*?**
 
