@@ -155,7 +155,7 @@ The first file name takes a bit of digging, as we have to look in the response f
 
 **Answer**: `filter.msi`, `10opd3r_load.msi`
 
-### **Inspect the traffic for the first downloaded file from the previous question. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xy*z)**
+### Inspect the traffic for the first downloaded file from the previous question. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xy*z)
 
 
 
