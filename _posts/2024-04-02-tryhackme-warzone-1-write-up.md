@@ -165,7 +165,15 @@ This will open the communication stream between both hosts:
 
 ![](/assets/img/uploads/tcp-stream.png)
 
-**Answer**:
+The question tells us we should expect the files to be found at a path beginning `C:\`, so we'll search for that in `Find:` field.
+
+In doing so we find our answers:
+
+![](/assets/img/uploads/arab-file.png)
+
+**Answer**: `C:\ProgramData\001\arab.bin`, `C:\ProgramData\001\arab.exe`
+
+Note: We get the full path from `C:\ProgramData\001\arab.bin`, and since the question says both files are found in the same path, we can deduce the full path for `arab.exe`.
 
 ### **Now do the same and inspect the traffic from the second downloaded file. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xyz*)**
 
