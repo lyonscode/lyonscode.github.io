@@ -163,4 +163,6 @@ The first file name takes a bit of digging, as we have to look in the response f
 
 ### **Now do the same and inspect the traffic from the second downloaded file. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xyz*)**
 
+**Answer**:
+
 Tools used: Brim, VirusTotal, Wireshark
