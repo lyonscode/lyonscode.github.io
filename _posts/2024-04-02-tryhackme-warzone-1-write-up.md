@@ -157,7 +157,13 @@ The first file name takes a bit of digging, as we have to look in the response f
 
 ### Inspect the traffic for the first downloaded file from the previous question. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xy*z)
 
+To find our answers we'll want to follow the TCP stream of the packet where the `.msi` file was found.
 
+![](/assets/img/uploads/follow-tcp-stream.png)
+
+This will open the communication stream between both hosts:
+
+![](/assets/img/uploads/tcp-stream.png)
 
 **Answer**:
 
