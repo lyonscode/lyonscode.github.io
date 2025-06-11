@@ -173,10 +173,18 @@ In doing so we find our answers:
 
 **Answer**: `C:\ProgramData\001\arab.bin`, `C:\ProgramData\001\arab.exe`
 
-Note: We get the full path from `C:\ProgramData\001\arab.bin`, and since the question says both files are found in the same path, we can deduce the full path for `arab.exe`.
+*Note*: We get the full path from `C:\ProgramData\001\arab.bin`, and since the question says both files are found in the same path, we can deduce the full path for `arab.exe`.
 
 ### **Now do the same and inspect the traffic from the second downloaded file. Two files will be saved to the same directory. What is the full file path of the directory and the name of the two files? (*format: C:\path\file.xyz,C:\path\file.xyz*)**
 
-**Answer**:
+We need only repeat this process for the second downloaded file.
+
+![](/assets/img/uploads/2nd-downloaded-file.png)
+
+**Answer**: `C:\ProgramData\Local\Google\rebol-view-278-3-1.exe`, `C:\ProgramData\Local\Google\exemple.rb`
+
+## Conclusion
+
+With all this information we've come up with, we can confirm this is a true positive found by our IDS/IPS. 
 
 Tools used: Brim, VirusTotal, Wireshark
