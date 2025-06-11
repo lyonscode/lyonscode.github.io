@@ -107,13 +107,27 @@ Seems heavily associated with TA505, worth looking into.
 
 ![](/assets/img/uploads/heimdal-mirrorblast-ta505.png)
 
-The above article from [Heimdal](https://heimdalsecurity.com/blog/mirrorblast-the-new-phishing-campaign-targeting-financial-organizations/) tells about how TA505 is using MirrorBlast 
+The above article from [Heimdal](https://heimdalsecurity.com/blog/mirrorblast-the-new-phishing-campaign-targeting-financial-organizations/) confirms that TA505 is thought to be using MirrorBlast, much like VirusTotal associated to the above IP address. 
 
 **Answer:** MirrorBlast
 
 **Do a search in VirusTotal for the domain from question 4. What was the majority file type listed under *Communicating Files*?**
 
+This question asks up to switch to the *Relations* tab to look at *Communicating Files*.
+
+![](/assets/img/uploads/communicating-files.png)
+
+Almost every one of the file types is a Windows Installer file.
+
+**Answer:** Windows Installer
+
 **Inspect the web traffic for the flagged IP address; what is the *user-agent* in the traffic?**
+
+We now turn to our friend Wireshark to inspect the provided PCAP file for web traffic.  We take the IP address we found earlier and search for HTTP requests it was involved with.
+
+
+
+**Answer:**
 
 **Retrace the attack; there were multiple IP addresses associated with this attack. What were two other IP addresses? Enter the IP addressed *defanged* and in numerical order. (*format: IPADDR,IPADDR*)**
 
