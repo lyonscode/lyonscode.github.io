@@ -125,9 +125,13 @@ Almost every one of the file types is a Windows Installer file.
 
 We now turn to our friend Wireshark to inspect the provided PCAP file for web traffic.  We take the IP address we found earlier and search for HTTP requests it was involved with.
 
+![](/assets/img/uploads/wireshark-1.png)
 
+Opening the highlighted packet and scrolling down to the Hypertext Transfer Protocol section, we find the User-Agent.
 
-**Answer:**
+![](/assets/img/uploads/wireshark-2.png)
+
+**Answer:** REBOL View 2.7.8.3.1
 
 **Retrace the attack; there were multiple IP addresses associated with this attack. What were two other IP addresses? Enter the IP addressed *defanged* and in numerical order. (*format: IPADDR,IPADDR*)**
 
