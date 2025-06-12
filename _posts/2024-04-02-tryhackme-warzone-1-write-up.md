@@ -1,5 +1,5 @@
 ---
-date: 2025-06-11 14:59:37
+date: 2025-06-12 10:32:19
 layout: post
 title: TryHackMe - Warzone 1 - Write-Up
 subtitle: "You received an IDS/IPS alert. Time to triage the alert to determine
@@ -107,13 +107,13 @@ Seems heavily associated with TA505, worth looking into.
 
 ![](/assets/img/uploads/heimdal-mirrorblast-ta505.png)
 
-The above article from [Heimdal](https://heimdalsecurity.com/blog/mirrorblast-the-new-phishing-campaign-targeting-financial-organizations/) confirms that TA505 is thought to be using MirrorBlast, much like VirusTotal associated to the above IP address. 
+The above article from [Heimdal](https://heimdalsecurity.com/blog/mirrorblast-the-new-phishing-campaign-targeting-financial-organizations/) confirms that TA505 is thought to be using MirrorBlast, much like VirusTotal associated to the above IP address.  This is our answer!
 
 **Answer:** MirrorBlast
 
 ### **Do a search in VirusTotal for the domain from question 4. What was the majority file type listed under *Communicating Files*?**
 
-This question asks up to switch to the *Relations* tab to look at *Communicating Files*.
+This question asks us to switch to the *Relations* tab to look at *Communicating Files*.
 
 ![](/assets/img/uploads/communicating-files.png)
 
