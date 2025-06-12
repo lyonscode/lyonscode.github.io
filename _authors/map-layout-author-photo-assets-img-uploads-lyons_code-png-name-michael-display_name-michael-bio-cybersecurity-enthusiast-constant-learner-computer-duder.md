@@ -5,5 +5,5 @@ name: Michael
 display_name: Michael
 bio: |
   Cybersecurity enthusiast, constant learner, computer duder
-linkedin_username: https://www.linkedin.com/in/lyonscode/
+linkedin_username: lyonscode
 ---
