@@ -49,6 +49,12 @@ We can open Oliver's message and download `samples.zip` to take a look at the su
 
 ![](/assets/img/uploads/samples.zip-location.png)
 
+We'll use our terminal to unzip the archive and move the files to separate directory: `samples`.  The password -- *Panda321!* -- was provided by Oliver in his email.
+
+
+
+
+
 Answer format: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Which malware framework utilizes these DLLs as add-on modules?
