@@ -79,9 +79,13 @@ This leads us to an article from [WeLiveSecurity](https://www.welivesecurity.com
 
 ### Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?
 
+The same article from above provides us the answer to this question as well.
 
+![](/assets/img/uploads/prsm.dll-t1123.png)
 
-**Answer**: 
+Apparently, `pRsm.dll` is able to capture audio streams.  Spooky.
+
+**Answer**: T1123
 
 ### What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?
 
