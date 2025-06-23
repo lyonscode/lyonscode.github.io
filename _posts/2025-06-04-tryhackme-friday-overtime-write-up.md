@@ -17,7 +17,13 @@ The TryHackMe room "Friday Overtime" can be found [here](https://tryhackme.com/r
 >
 > As the only remaining CTI Analyst on shift at PandaProbe Intelligence, you quickly took charge of the situation, realising the gravity of a potential breach at a financial institution. The ticket contained multiple file attachments, presumed to be malware samples.
 >
-> With a deep breath, a focused mind, and the longing desire to go home, you began the process...
+> With a deep breath, a focused mind, and the longing desire to go home, you began the process of:
+>
+> 1. Downloading the malware samples provided in the ticket, ensuring they were contained in a secure environment.
+> 2. Running the samples through preliminary automated malware analysis tools to get a quick overview.
+> 3. Deep diving into a manual analysis, understanding the malware's behaviour, and identifying its communication patterns.
+> 4. Correlating findings with global threat intelligence databases to identify known signatures or behaviours.
+> 5. Compiling a comprehensive report with mitigation and recovery steps, ensuring SwiftSpend Finance could swiftly address potential threats.
 
 Today we'll be analyzing some malware samples to identify the malware's behavior and communication patterns.  Let's dig in!
 
