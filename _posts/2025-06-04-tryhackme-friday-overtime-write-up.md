@@ -1,5 +1,5 @@
 ---
-date: 2025-06-04 15:19:44
+date: 2025-06-23 14:07:14
 layout: post
 title: TryHackMe - Friday Overtime - Write-Up
 subtitle: Step into the shoes of a Cyber Threat Intelligence Analyst and put
@@ -10,4 +10,38 @@ category: write-up
 author: Michael
 paginate: false
 ---
-https://tryhackme.com/room/fridayovertime
+The TryHackMe room "Friday Overtime" can be found [here](https://tryhackme.com/room/fridayovertime).
+
+> It's a Friday evening at PandaProbe Intelligence when a notification appears on your CTI platform. While most are already looking forward to the weekend, you realise you must pull overtime because SwiftSpend Finance has opened a new ticket, raising concerns about potential malware threats. The finance company, known for its meticulous security measures, stumbled upon something suspicious and wanted immediate expert analysis.
+>
+> As the only remaining CTI Analyst on shift at PandaProbe Intelligence, you quickly took charge of the situation, realising the gravity of a potential breach at a financial institution. The ticket contained multiple file attachments, presumed to be malware samples.
+>
+> With a deep breath, a focused mind, and the longing desire to go home, you began the process...
+
+Today we'll be analyzing some malware samples to identify the malware's behavior and communication patterns.  Let's dig in!
+
+### Who shared the malware samples?
+
+Answer format: \*\*\*\*\*\* \*\*\*\*\*\**
+
+### What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?
+
+Answer format: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+### Which malware framework utilizes these DLLs as add-on modules?
+
+Answer format: \*\*\*\**
+
+### Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?
+
+Answer format: \*\*\*\**
+
+### What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?
+
+Answer format: \*\*\*\*\*://\*\*\*\*\*\*\*\*.\*\*\*\*\*\*\*\*\*.\*\*\*\*.\*\*\*\*/\*\*\*\*/\*\*/\*\*\*\*\*\*\*\*\_\*\*\*\*\_\*\*\*\*\*.\*\*\**
+
+### What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?
+
+Answer format: \*\*\*\*.\*\*\*\*.\*\*\*\*.\*\**
+
+### What is the SHA1 hash of the spyagent family spyware hosted on the same IP targeting Android devices on November 16, 2022?
