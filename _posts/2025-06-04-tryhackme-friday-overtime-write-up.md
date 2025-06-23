@@ -67,7 +67,7 @@ To find the SHA1 hash of `pRsm.dll`, we can use the `sha1sum` command on the fil
 
 
 
-To find this information, we need only to run a quick Google search.
+To find this information, Google is our friend.
 
 ![](/assets/img/uploads/prsm.dll-malware-framework-google-search.png)
 
@@ -79,7 +79,9 @@ This leads us to an article from [WeLiveSecurity](https://www.welivesecurity.com
 
 ### Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?
 
-Answer format: \*\*\*\**
+
+
+**Answer**: 
 
 ### What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?
 
