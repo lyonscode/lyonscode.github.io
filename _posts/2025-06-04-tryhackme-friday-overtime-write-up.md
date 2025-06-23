@@ -53,13 +53,25 @@ We'll use our terminal to unzip the archive and move the files to separate direc
 
 ![](/assets/img/uploads/terminal-samples.png)
 
-To find the SHA1 hash of `pRsm.dll`, we can use the `sha1sum` command on the file
+To find the SHA1 hash of `pRsm.dll`, we can use the `sha1sum` command on the file.
+
+![](/assets/img/uploads/sha1sum-prsm.png)
 
 **Answer**: 9d1ecbbe8637fed0d89fca1af35ea821277ad2e8
 
 ### Which malware framework utilizes these DLLs as add-on modules?
 
-Answer format: \*\*\*\**
+
+
+
+
+
+
+To find this information, we need only to run a quick Google search.
+
+
+
+**Answer**: \*\*\*\**
 
 ### Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?
 
