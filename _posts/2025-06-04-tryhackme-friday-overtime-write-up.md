@@ -89,6 +89,8 @@ Apparently, `pRsm.dll` is able to capture audio streams.  Spooky.
 
 ### What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?
 
+Higher up in the article we find a table containing a URL dated to the same day as in the question:
+
 
 
 **Answer**: 
