@@ -91,9 +91,17 @@ Apparently, `pRsm.dll` is able to capture audio streams.  Spooky.
 
 Higher up in the article we find a table containing a URL dated to the same day as in the question:
 
+![](/assets/img/uploads/first-seen-2020-11-02.png)
 
+"Defanging" is the process of making a link or address unusable as a clickable item by bracketing off the dots.  You can see an above example in the `qq[.]com` section of the URL.  
 
-**Answer**: 
+This allows the address to be shared without running the risk of it being visited and incurring the wrath of whatever terrors may await!
+
+To use [CyberChef](https://gchq.github.io/CyberChef/) to do this, we need only to input the URL provided by WeLiveSecurity, add the "Defang URL" recipe, and copy the output.
+
+![](/assets/img/uploads/cyberchef-defang-1.png)
+
+**Answer**: hxxp\[://]update\[.]browser\[.]qq\[.]com/qmbs/QQ/QQUrlMgr_QQ88_4296\[.]exe
 
 ### What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?
 
