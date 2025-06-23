@@ -25,7 +25,7 @@ The TryHackMe room "Friday Overtime" can be found [here](https://tryhackme.com/r
 > 4. Correlating findings with global threat intelligence databases to identify known signatures or behaviours.
 > 5. Compiling a comprehensive report with mitigation and recovery steps, ensuring SwiftSpend Finance could swiftly address potential threats.
 
-Today we'll be analyzing some malware samples to identify the malware's behavior and communication patterns.  Let's dig in!
+Today we'll be analyzing some malware samples to identify the malware's behavior and communication patterns, stepping into the shoes of an analyst named Erica Tracy.
 
 ![](/assets/img/uploads/docintel-panda-probe-login.png)
 
