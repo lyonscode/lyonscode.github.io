@@ -27,9 +27,21 @@ The TryHackMe room "Friday Overtime" can be found [here](https://tryhackme.com/r
 
 Today we'll be analyzing some malware samples to identify the malware's behavior and communication patterns.  Let's dig in!
 
+![](/assets/img/uploads/docintel-panda-probe-login.png)
+
 ### Who shared the malware samples?
 
-Answer format: \*\*\*\*\*\* \*\*\*\*\*\**
+We begin by starting the VM and logging into DocIntel platform with the provided credentials...
+
+![](/assets/img/uploads/provided-creds.png)
+
+...and are met with the dashboard.
+
+![](/assets/img/uploads/docintel-logged-in.png)
+
+This screen is opened up to a message from a member of the SwiftSpend Finance Cybesecurity Division.  His name is our answer!
+
+**Answer**: Oliver Bennett
 
 ### What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?
 
