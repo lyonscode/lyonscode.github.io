@@ -45,6 +45,8 @@ This screen is opened up to a message from a member of the SwiftSpend Finance Cy
 
 ### What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?
 
+We can open Oliver's message and download `samples.zip` to take a look at the suspect files.
+
 Answer format: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Which malware framework utilizes these DLLs as add-on modules?
