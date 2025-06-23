@@ -47,6 +47,8 @@ This screen is opened up to a message from a member of the SwiftSpend Finance Cy
 
 We can open Oliver's message and download `samples.zip` to take a look at the suspect files.
 
+![](/assets/img/uploads/samples.zip-location.png)
+
 Answer format: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Which malware framework utilizes these DLLs as add-on modules?
