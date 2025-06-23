@@ -69,9 +69,13 @@ To find the SHA1 hash of `pRsm.dll`, we can use the `sha1sum` command on the fil
 
 To find this information, we need only to run a quick Google search.
 
+![](/assets/img/uploads/prsm.dll-malware-framework-google-search.png)
 
+This leads us to an article from [WeLiveSecurity](https://www.welivesecurity.com/2023/04/26/evasive-panda-apt-group-malware-updates-popular-chinese-software/) discussing APT group Evasive Panda in which we can find our answer:
 
-**Answer**: \*\*\*\**
+![](/assets/img/uploads/welivesecurity-mgbot.png)
+
+**Answer**: MgBot
 
 ### Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?
 
