@@ -1,5 +1,5 @@
 ---
-date: 2025-06-23 14:07:14
+date: 2025-06-24 16:34:47
 layout: post
 title: TryHackMe - Friday Overtime - Write-Up
 subtitle: Step into the shoes of a Cyber Threat Intelligence Analyst and put
