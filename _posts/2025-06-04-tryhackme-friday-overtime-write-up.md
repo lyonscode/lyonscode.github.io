@@ -61,12 +61,6 @@ To find the SHA1 hash of `pRsm.dll`, we can use the `sha1sum` command on the fil
 
 ### Which malware framework utilizes these DLLs as add-on modules?
 
-
-
-
-
-
-
 To find this information, Google is our friend.
 
 ![](/assets/img/uploads/prsm.dll-malware-framework-google-search.png)
@@ -117,8 +111,6 @@ Rinse and repeat for our answer, though we want to switch to "Defang IP Addresse
 
 ### What is the SHA1 hash of the spyagent family spyware hosted on the same IP targeting Android devices on November 16, 2022?
 
-
-
 We'll visit [VirusTotal](https://www.virustotal.com/gui/ip-address/122.10.90.12) to find more information about this spyware.  We start by searching the IP address from the previous question.
 
 ![](/assets/img/uploads/virustotal-1.png)
@@ -139,4 +131,6 @@ We can then click on *Details* to grab the SHA1 hash.
 
 ## EOF
 
-This
+This room is a good exercise in consulting external research.
+
+![](/assets/img/uploads/badge.png)
