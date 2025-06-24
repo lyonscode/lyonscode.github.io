@@ -105,6 +105,16 @@ To use [CyberChef](https://gchq.github.io/CyberChef/) to do this, we need only t
 
 ### What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?
 
+The IP address we're looking for can be found lower down the article in the *Network* section:
+
+![](/assets/img/uploads/first-seen-2020-09-14.png)
+
+Rinse and repeat for our answer, though we want to switch to "Defang IP Addresses" for this one.
+
+![]()
+
+
+
 **Answer**: 
 
 ### What is the SHA1 hash of the spyagent family spyware hosted on the same IP targeting Android devices on November 16, 2022?
