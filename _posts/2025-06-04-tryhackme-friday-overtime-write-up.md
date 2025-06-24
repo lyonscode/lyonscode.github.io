@@ -131,6 +131,6 @@ We can then click on *Details* to grab the SHA1 hash.
 
 ## EOF
 
-This room is a good exercise in consulting external research.
+This room is a good exercise in consulting external research as blue teamer.  It also demonstrates the value of groups like ESET Research (WeLiveTraining) discovering and disseminating threat intelligence.  Without the likes of such organizations, our character Erica Tracy might have a much harder time identifying the issue at hand!
 
 ![](/assets/img/uploads/badge.png)
