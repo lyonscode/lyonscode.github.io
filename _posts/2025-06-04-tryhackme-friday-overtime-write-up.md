@@ -111,12 +111,28 @@ The IP address we're looking for can be found lower down the article in the *Net
 
 Rinse and repeat for our answer, though we want to switch to "Defang IP Addresses" for this one.
 
-![]()
+![](/assets/img/uploads/cyberchef-defang-2.png)
 
-
-
-**Answer**: 
+**Answer**: 122\[.]10\[.]90\[.]12
 
 ### What is the SHA1 hash of the spyagent family spyware hosted on the same IP targeting Android devices on November 16, 2022?
+
+
+
+We'll visit [VirusTotal](https://www.virustotal.com/gui/ip-address/122.10.90.12) to find more information about this spyware.  We start by searching the IP address from the previous question.
+
+![](/assets/img/uploads/virustotal-1.png)
+
+In the *Relations* tab, under *Communicating Files*, we find a file with type "Android" that has contacted the IP address in the past.  This is our culprit.  
+
+![](/assets/img/uploads/virustotal-2.png)
+
+(**Note**: the *Scanned* date appears to have been updated since the room was created.  Earlier [write-ups](https://infophreak.com/tryhackme-friday-overtime-walkthrough/#q7what-is-the-sha1-hash-of-the-spyagent-family-spyware-hosted-on-the-same-ip-targeting-android-devices-on-november-16-2022) show that this Android file was once dated at "2022-11-16" -- the date referenced in this question.  While this is the only referenced Android file for the IP address, and thus is our likely answer, I was confused as to the discrepancy and thought it important to note.)
+
+Clicking on the file name brings us to page confirming this is part of the spyagent family.
+
+![](/assets/img/uploads/virustotal-3.png)
+
+We can then click on *Details* to grab the SHA-1 hash.
 
 **Answer**:
