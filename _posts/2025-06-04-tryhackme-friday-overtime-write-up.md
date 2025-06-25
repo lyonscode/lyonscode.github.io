@@ -119,7 +119,7 @@ In the *Relations* tab, under *Communicating Files*, we find a file with type "A
 
 ![](/assets/img/uploads/virustotal-2.png)
 
-(**Note**: the *Scanned* date appears to have been updated since the room was created.  Earlier [write-ups](https://infophreak.com/tryhackme-friday-overtime-walkthrough/#q7what-is-the-sha1-hash-of-the-spyagent-family-spyware-hosted-on-the-same-ip-targeting-android-devices-on-november-16-2022) show that this Android file was once dated at "2022-11-16" -- the date referenced in this question.  While this is the only referenced Android file for the IP address, and thus is our likely answer, I was confused as to the discrepancy and thought it important to note.)
+(**Note**: the *Scanned* date appears to have been updated since the room was created.  Earlier [write-ups](https://infophreak.com/tryhackme-friday-overtime-walkthrough/#q7what-is-the-sha1-hash-of-the-spyagent-family-spyware-hosted-on-the-same-ip-targeting-android-devices-on-november-16-2022) show that this Android file was once dated at "2022-11-16" -- the date referenced in this question.  While this is the only Android file for the IP address referenced in VirusTotal, and thus is our likely answer, I was confused as to the discrepancy and thought it important to note.)
 
 Clicking on the file name brings us to a page confirming this is part of the spyagent family.
 
