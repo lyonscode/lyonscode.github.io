@@ -154,9 +154,13 @@ Note: TryHackMe wants the answer in the order in which they appear on the Naviga
 
 ### What technique is the group known for using under the tactic Collection?
 
+Lastly we need to return the Navigator once more to find the answer.
 
+![](/assets/img/uploads/automated-collection.png)
 
-**Answer**:
+Easy enough!
+
+**Answer**: Automated Collection
 
 ## EOF
 
