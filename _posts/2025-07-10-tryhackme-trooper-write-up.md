@@ -24,9 +24,9 @@ paginate: false
 ---
 The TryHackMe room Trooper can be found [here](https://tryhackme.com/room/trooper).
 
-> A multinational technology company has been the target of several cyber attacks in the past few months. The attackers have been successful in stealing sensitive intellectual property and causing disruptions to the company's operations. A threat advisory report about similar attacks has been shared, and as a CTI analyst, your task is to identify the Tactics, Techniques, and Procedures (TTPs) being used by the Threat group and gather as much information as possible about their identity and motive. For this task, you will utilise the OpenCTI platform as well as the MITRE ATT&CK navigator, linked to the details below. 
+> A multinational technology company has been the target of several cyber attacks in the past few months. The attackers have been successful in stealing sensitive intellectual property and causing disruptions to the company's operations. A threat advisory report about similar attacks has been shared, and as a CTI analyst, your task is to identify the Tactics, Techniques, and Procedures (TTPs) being used by the Threat group and gather as much information as possible about their identity and motive. For this task, you will utilise the OpenCTI platform as well as the MITRE ATT&CK navigator....
 
-# \*\*\*INTRO\*\*\*
+We begin our investigation by reading through a [report](https://www.trendmicro.com/en_us/research/20/e/tropic-troopers-back-usbferry-attack-targets-air-gapped-environments.html) written by Joey Chen of Trend Micro.  This report is provided in-room by TryHackMe, but has the name of the threat group changed to "APT X".
 
 ### What kind of phishing campaign does APT X use as part of their TTPs?
 
@@ -54,7 +54,7 @@ The answer to this question is actually in the title of the report, but it's spe
 
 ### What is the identity of APT X?
 
-Now, we can easily find the true assigned name of APT X by going to the 
+Now, we can easily find the true assigned name of APT X by looking at Chen's report 
 
 **Answer**: \_\_\_\_\_\_ \_\_\_\_\_\__
 
