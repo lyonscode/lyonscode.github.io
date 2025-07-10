@@ -1,5 +1,5 @@
 ---
-date: 2025-07-10 10:48:15
+date: 2025-07-08 10:48:15
 layout: post
 title: TryHackMe - Trooper - Write-Up
 subtitle: Use Cyber Threat Intelligence knowledge and skills to identify a
