@@ -71,7 +71,11 @@ Task 1 was introduction, let's move on to Task 2!
 
 ## Task 6 - Following the fuse
 
+> So we have a file and a motive. The question we now have is: how will this file be executed?
+>
+> Surely, he wants it to execute at some point?
 
+### At what time will the malicious file trigger? (Format: HH:MM AM/PM)
 
 ## Task 7 - Conclusion
 
@@ -82,3 +86,5 @@ Task 1 was introduction, let's move on to Task 2!
 > Look at you, second day on the job, and you’ve already solved 2 cases for me. Tell Sophie I told you to give you a raise.
 
 ## EOF
+
+I really like these rooms which fully commit to a story.
