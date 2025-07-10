@@ -6,7 +6,7 @@ subtitle: Use Cyber Threat Intelligence knowledge and skills to identify a
   threat based on a report.
 description: A walkthrough of the TryHackMe room Trooper
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/4da07b9ac2204d8d95505bb9601527eb.png
-optimized_image: null
+optimized_image: /assets/img/uploads/trooper-resized.png
 category: write-up
 tags:
   - trooper
