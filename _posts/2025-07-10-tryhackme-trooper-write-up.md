@@ -68,6 +68,8 @@ After searching for USBferry, we get a hit with the STIX ID we are looking for.
 
 The word "technique" is a bit of a hint that we should look at the MITRE ATT&CK Navigator
 
+![]()
+
 **Answer**: \_\_\_\_\_\_\_\_\_\__ \_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_ \_\____
 
 ### What is the identity of APT X?
