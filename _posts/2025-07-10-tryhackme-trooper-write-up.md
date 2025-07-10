@@ -78,7 +78,7 @@ Under the "Initial Access" column, we find one highlighted technique: our answer
 
 ### What is the identity of APT X?
 
-Now, we can easily find the true assigned name of APT X by looking at Chen's report, but that feels perhaps outside the intended spirit of the room.
+Now, we can easily find the true assigned name of APT X by looking at Chen's report, but that feels outside the intended spirit of the room.
 
 Instead, let's pull it from the OpenCTI description of USBferry.
 
@@ -90,7 +90,29 @@ Instead, let's pull it from the OpenCTI description of USBferry.
 
 ### On OpenCTI, how many Attack Pattern techniques are associated with the APT?
 
-**Answer**: __
+So, this is a weird one.
+
+We *should* be able to find the answer by going to the "Knowledge" section of the OpenCTI entry for USBferry.
+
+![](/assets/img/uploads/attack-pattern-11.png)
+
+On this page it clearly labels 11 Attack Patterns. As such, the answer should be "11," right?  Apparently not.
+
+The question does not accept "11" as an answer.  I tried also putting "12" (maybe they were including all Total Relations?) and, no, that is also wrong.
+
+Stumped, as 11 is clearly the number of Attack Patterns given by the OpenCTI page, I looked to confirm my answer in another walkthrough.
+
+I consulted 0x4C1D's [write-up](https://medium.com/@0x4C1D/try-hack-me-trooper-walkthrough-d4ddecd7254a) from 2023 and found the author had been provided a very different answer:
+
+![](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*DhgBFt4NY4qNtySTOoIXMA.png)
+
+It would seem that the OpenCTI page used to report **39** attack patterns instead of the 11 I was given.
+
+And sure enough, the Trooper room accepts "39" as the answer.
+
+It is unclear what has caused this discrepancy.  All I know is that the information provided by the TryHackMe OpenCTI page has updated, but the sought-after answer on the page has not.  Curious!
+
+**Answer**: 39
 
 ### What is the name of the tool linked to the APT?
 
@@ -109,5 +131,11 @@ Instead, let's pull it from the OpenCTI description of USBferry.
 **Answer**:
 
 ## EOF
+
+I'm noticing that while TryHackMe's rooms are usually pretty stellar, they do have a tendency to ask for dated answers.  It happened with the Attack Patterns question in this room, and I had a similar issue when completing the [Friday Overtime](https://lyonscode.github.io/tryhackme-friday-overtime-write-up/) room.
+
+I can only speculate, but I know that threat intelligence is subject to regular updates as investigations continue and more information comes to light.  I imagine it can be quite difficult to update these rooms as the details change.
+
+Nonetheless, I very much enjoyed this room and working with OpenCTI in particular!
 
 Tools used: OpenCTI, MITRE ATT&CK Navigator
