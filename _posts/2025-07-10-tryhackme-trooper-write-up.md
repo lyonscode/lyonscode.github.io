@@ -96,7 +96,7 @@ We *should* be able to find the answer by going to the "Knowledge" section of th
 
 ![](/assets/img/uploads/attack-pattern-11.png)
 
-On this page it clearly labels 11 Attack Patterns. As such, the answer should be "11," right?  Apparently not.
+On this page, it clearly labels 11 Attack Patterns. As such, the answer should be "11," right?  Apparently not.
 
 The question does not accept "11" as an answer.  I tried also putting "12" (maybe they were including all Total Relations?) and, no, that is also wrong.
 
