@@ -70,15 +70,23 @@ The word "technique" is a bit of a hint that we should look at the MITRE ATT&CK 
 
 Pivoting over to the provided Navigator IP we are presented with a breakdown of the Tactics, Techniques, and Procedures related to the USBferry malware.
 
+Under the "Initial Access" column, we find one highlighted technique: our answer.
+
 ![](/assets/img/uploads/mitre-att-ck-navigator.png)
 
 **Answer**: Replication Through Removable Media
 
 ### What is the identity of APT X?
 
-Now, we can easily find the true assigned name of APT X by looking at Chen's report 
+Now, we can easily find the true assigned name of APT X by looking at Chen's report, but that feels perhaps outside the intended spirit of the room.
 
-**Answer**: \_\_\_\_\_\_ \_\_\_\_\_\__
+Instead, let's pull it from the OpenCTI description of USBferry.
+
+![](/assets/img/uploads/tropic-trooper.png)
+
+**Answer**: Tropic Trooper
+
+(Hey, that's why the room's called "Trooper"!)
 
 ### On OpenCTI, how many Attack Pattern techniques are associated with the APT?
 
