@@ -116,7 +116,19 @@ It is unclear what has caused this discrepancy.  All I know is that the informat
 
 ### What is the name of the tool linked to the APT?
 
-**Answer**: \_\_\_\_\_\_\_\__
+Again, we find ourselves with a problem.
+
+The answer to this question should clearly be found under the "Tools" section, but when I got there, there are no entries.
+
+![](/assets/img/uploads/tools-empty.png)
+
+Comparing this to our known-good walkthrough, we can find the answer in the same section.
+
+![](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*7qWm_djuIo7DZVQQDXhYqQ.png)
+
+At least we know where to find the answers, even if they're not showing up correctly.  
+
+**Answer**: BITSAdmin
 
 ### Load up the Navigator. What is the sub-technique used by the APT under Valid Accounts?
 
