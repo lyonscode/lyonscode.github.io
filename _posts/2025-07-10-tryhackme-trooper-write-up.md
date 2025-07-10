@@ -27,36 +27,40 @@ paginate: false
 
 ### What kind of phishing campaign does APT X use as part of their TTPs?
 
-
+**Answer:**
 
 ### What is the name of the malware used by APT X?
 
+**Answer:**
+
 ### What is the malware's STIX ID?
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
+**Answer:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
 ### With the use of a USB, what technique did APT X use for initial access?
 
-\_\_\_\_\_\_\_\_\_\__ \_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_ \_\____
+**Answer:** \_\_\_\_\_\_\_\_\_\__ \_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_ \_\____
 
 ### What is the identity of APT X? 
 
-\_\_\_\_\_\_ \_\_\_\_\_\__
+**Answer:** \_\_\_\_\_\_ \_\_\_\_\_\__
 
 ### On OpenCTI, how many Attack Pattern techniques are associated with the APT?
 
-__
+**Answer:** __
 
 ### What is the name of the tool linked to the APT?
 
-\_\_\_\_\_\_\_\__
+**Answer:** \_\_\_\_\_\_\_\__
 
 ### Load up the Navigator. What is the sub-technique used by the APT under Valid Accounts?
 
-\_\_\_\_\_ \_\_\_\_\____
+**Answer:** \_\_\_\_\_ \_\_\_\_\____
 
 ### Under what Tactics does the technique above fall?
 
-\_\_\_\_\_\__ \_\_\_\_\_\_, \_\_\_\_\_\_\_\_\_\_\_,  \_\_\_\_\_\_\_ \_\_\_\_\_\__ \_\_\_ \_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_
+**Answer:** \_\_\_\_\_\__ \_\_\_\_\_\_, \_\_\_\_\_\_\_\_\_\_\_,  \_\_\_\_\_\_\_ \_\_\_\_\_\__ \_\_\_ \_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_
 
 ### What technique is the group known for using under the tactic Collection?
+
+**Answer:**
