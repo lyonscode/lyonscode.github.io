@@ -140,6 +140,12 @@ Back in the Navigator, we can easily find the answer the "Valid Accounts" techni
 
 ### Under what Tactics does the technique above fall?
 
+Easiest way to do this is to right click "Valid Accounts" (note that the question asks about the technique, not the sub-technique) and clicking "view technique".
+
+![]()
+
+
+
 **Answer**: \_\_\_\_\_\__ \_\_\_\_\_\_, \_\_\_\_\_\_\_\_\_\_\_,  \_\_\_\_\_\_\_ \_\_\_\_\_\__ \_\_\_ \_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_
 
 ### What technique is the group known for using under the tactic Collection?
