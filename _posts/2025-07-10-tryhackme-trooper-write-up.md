@@ -48,9 +48,15 @@ The answer to this question is actually in the title of the report, but it's spe
 
 To find the answer to this question, we will pivot away from the report and log in to OpenCTI with the provided credentials.
 
+![](/assets/img/uploads/opencti-dashboard.png)
 
+(God, I love a good dashboard.)
 
-**Answer**: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
+After searching for USBferry, we get a hit with the STIX ID we are looking for.
+
+![](/assets/img/uploads/usbferry-stix-id.png)
+
+**Answer**: malware--5d0ea014-1ce9-5d5c-bcc7-f625a07907d0
 
 ### With the use of a USB, what technique did APT X use for initial access?
 
