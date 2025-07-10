@@ -49,9 +49,29 @@ Task 1 was introduction, let's move on to Task 2!
 
 ## Task 4 - Let’s see if you did anything bad
 
+> Keep going. Our disgruntled IT was supposed to only install a service on this computer, so look for commands that are unrelated to that.
+
+### Which user was created after the package from the previous task was installed?
+
+### A user was then later given sudo priveleges. When was the sudoers file updated? (Format: Month Day HH:MM:SS)
+
+### A script file was opened using the "vi" text editor. What is the name of this file?
+
 ## Task 5 - Bomb has been planted. But when and where?
 
+> That `bomb.sh` file is a huge red flag! While a file is already incriminating in itself, we still need to find out where it came from and what it contains. The problem is that the file does not exist anymore.
+
+### What is the command used that created the file `bomb.sh`?
+
+### The file was renamed and moved to a different directory. What is the full path of this file now?
+
+### When was the file from the previous question last modified? (Format: Month Day HH:MM)
+
+### What is the name of the file that will get created when the file from the first question executes?
+
 ## Task 6 - Following the fuse
+
+
 
 ## Task 7 - Conclusion
 
@@ -60,3 +80,5 @@ Task 1 was introduction, let's move on to Task 2!
 > We know that he had downloaded a previously prepared script into the machine, which will delete all the files of the installed service if the user has not logged in to this machine in the last 30 days. It’s a textbook example of a  “logic bomb”, that’s for sure.
 >
 > Look at you, second day on the job, and you’ve already solved 2 cases for me. Tell Sophie I told you to give you a raise.
+
+## EOF
