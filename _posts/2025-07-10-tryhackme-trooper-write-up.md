@@ -30,11 +30,19 @@ The TryHackMe room Trooper can be found [here](https://tryhackme.com/room/troope
 
 ### What kind of phishing campaign does APT X use as part of their TTPs?
 
-**Answer**:
+The answer to this question is found in the first paragraph of the report.
+
+![](/assets/img/uploads/spear-phishing-emails.png)
+
+**Answer**: spear-phishing emails
 
 ### What is the name of the malware used by APT X?
 
-**Answer**:
+The answer to this question is actually in the title of the report, but it's spelled out clearly for us towards the end of the first page.
+
+![](/assets/img/uploads/malware-called-usbferry.png)
+
+**Answer**: USBferry
 
 ### What is the malware's STIX ID?
 
