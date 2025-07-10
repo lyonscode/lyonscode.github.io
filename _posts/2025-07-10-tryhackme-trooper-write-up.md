@@ -126,13 +126,17 @@ Comparing this to our known-good walkthrough, we can find the answer in the same
 
 ![](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*7qWm_djuIo7DZVQQDXhYqQ.png)
 
-At least we know where to find the answers, even if they're not showing up correctly.  
+At least we know where to find the answers, even if they're not showing up correctly!
 
 **Answer**: BITSAdmin
 
 ### Load up the Navigator. What is the sub-technique used by the APT under Valid Accounts?
 
-**Answer**: \_\_\_\_\_ \_\_\_\_\____
+Back in the Navigator, we can easily find the answer the "Valid Accounts" technique of *Initial Access*.
+
+![](/assets/img/uploads/local-accounts.png)
+
+**Answer**: Local Accounts
 
 ### Under what Tactics does the technique above fall?
 
