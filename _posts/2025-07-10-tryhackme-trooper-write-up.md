@@ -142,13 +142,19 @@ Back in the Navigator, we can easily find the answer the "Valid Accounts" techni
 
 Easiest way to do this is to right click "Valid Accounts" (note that the question asks about the technique, not the sub-technique) and clicking "view technique".
 
-![]()
+![](/assets/img/uploads/view-technique.png)
 
+This will open the MITRE ATT&CK page for [T1078](https://attack.mitre.org/techniques/T1078/): Valid Accounts.  We can grab the Tactics from the box on the right of the page.
 
+![](/assets/img/uploads/tactics.png)
 
-**Answer**: \_\_\_\_\_\__ \_\_\_\_\_\_, \_\_\_\_\_\_\_\_\_\_\_,  \_\_\_\_\_\_\_ \_\_\_\_\_\__ \_\_\_ \_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_
+Note: TryHackMe wants the answer in the order in which they appear on the Navigator.
+
+**Answer**: Initial Access, Persistence,  Defense Evasion and Privilege Escalation
 
 ### What technique is the group known for using under the tactic Collection?
+
+
 
 **Answer**:
 
