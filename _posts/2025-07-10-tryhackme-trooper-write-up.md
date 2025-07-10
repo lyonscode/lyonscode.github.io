@@ -28,6 +28,12 @@ The TryHackMe room Trooper can be found [here](https://tryhackme.com/room/troope
 
 We begin our investigation by reading through a [report](https://www.trendmicro.com/en_us/research/20/e/tropic-troopers-back-usbferry-attack-targets-air-gapped-environments.html) written by Joey Chen of Trend Micro.  This report is provided in-room by TryHackMe, but has the name of the threat group changed to "APT X".
 
+We're also given credentials and addresses to access OpenCTI and the MITRE ATT&CK Navigator:
+
+![](/assets/img/uploads/thm-creds.png)
+
+Let's get to work!
+
 ### What kind of phishing campaign does APT X use as part of their TTPs?
 
 The answer to this question is found in the first paragraph of the report.
@@ -46,7 +52,7 @@ The answer to this question is actually in the title of the report, but it's spe
 
 ### What is the malware's STIX ID?
 
-To find the answer to this question, we will pivot away from the report and log in to OpenCTI with the provided credentials.
+To find the answer to this question, we will move away from the report and log in to OpenCTI with the provided credentials.
 
 ![](/assets/img/uploads/opencti-dashboard.png)
 
@@ -59,6 +65,8 @@ After searching for USBferry, we get a hit with the STIX ID we are looking for.
 **Answer**: malware--5d0ea014-1ce9-5d5c-bcc7-f625a07907d0
 
 ### With the use of a USB, what technique did APT X use for initial access?
+
+The word "technique" is a bit of a hint that we should look at the MITRE ATT&CK Navigator
 
 **Answer**: \_\_\_\_\_\_\_\_\_\__ \_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_ \_\____
 
@@ -90,4 +98,4 @@ Now, we can easily find the true assigned name of APT X by looking at Chen's rep
 
 ## EOF
 
-Tools used: OpenCTI, MITRE ATT&CK
+Tools used: OpenCTI, MITRE ATT&CK Navigator
