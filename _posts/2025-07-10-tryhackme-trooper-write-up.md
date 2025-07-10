@@ -66,11 +66,13 @@ After searching for USBferry, we get a hit with the STIX ID we are looking for.
 
 ### With the use of a USB, what technique did APT X use for initial access?
 
-The word "technique" is a bit of a hint that we should look at the MITRE ATT&CK Navigator
+The word "technique" is a bit of a hint that we should look at the MITRE ATT&CK Navigator.
 
-![]()
+Pivoting over to the provided Navigator IP we are presented with a breakdown of the Tactics, Techniques, and Procedures related to the USBferry malware.
 
-**Answer**: \_\_\_\_\_\_\_\_\_\__ \_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_ \_\____
+![](/assets/img/uploads/mitre-att-ck-navigator.png)
+
+**Answer**: Replication Through Removable Media
 
 ### What is the identity of APT X?
 
