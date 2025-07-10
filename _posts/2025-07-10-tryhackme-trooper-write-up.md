@@ -106,7 +106,7 @@ I consulted 0x4C1D's [write-up](https://medium.com/@0x4C1D/try-hack-me-trooper-w
 
 ![](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*DhgBFt4NY4qNtySTOoIXMA.png)
 
-It would seem that the OpenCTI page used to report **39** attack patterns instead of the 11 I was given.
+It would seem that the OpenCTI page at one point reported **39** attack patterns instead of the 11 I was given.
 
 And sure enough, the Trooper room accepts "39" as the answer.
 
