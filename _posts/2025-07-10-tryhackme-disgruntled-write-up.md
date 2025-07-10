@@ -35,6 +35,18 @@ Task 1 was introduction, let's move on to Task 2!
 
 ## Task 3 - Nothing suspicious... So far
 
+> Here’s the machine our disgruntled IT user last worked on. Check if there’s anything our client needs to be worried about.
+>
+> My advice: Look at the privileged commands that were run. That should get you started.
+
+### The user installed a package on the machine using elevated privileges. According to the logs, what is the full COMMAND?
+
+**Answer**:
+
+### What was the present working directory (PWD) when the previous command was run?
+
+**Answer**:
+
 ## Task 4 - Let’s see if you did anything bad
 
 ## Task 5 - Bomb has been planted. But when and where?
