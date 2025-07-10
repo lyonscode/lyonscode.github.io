@@ -31,7 +31,9 @@ Task 1 was introduction, let's move on to Task 2!
 
 ## Task 2 - Linux Forensics review
 
+![](/assets/img/uploads/linux-forensics-cheatsheet.png)
 
+This task only provides a Linux "cheat sheet" -- very helpful for the upcoming tasks.
 
 ## Task 3 - Nothing suspicious... So far
 
