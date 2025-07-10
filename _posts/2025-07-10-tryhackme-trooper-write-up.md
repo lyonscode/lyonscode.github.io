@@ -46,6 +46,10 @@ The answer to this question is actually in the title of the report, but it's spe
 
 ### What is the malware's STIX ID?
 
+To find the answer to this question, we will pivot away from the report and log in to OpenCTI with the provided credentials.
+
+
+
 **Answer**: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
 ### With the use of a USB, what technique did APT X use for initial access?
