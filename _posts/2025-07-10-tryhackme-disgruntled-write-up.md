@@ -53,9 +53,15 @@ Task 1 was introduction, let's move on to Task 2!
 
 ### Which user was created after the package from the previous task was installed?
 
+**Answer**:
+
 ### A user was then later given sudo priveleges. When was the sudoers file updated? (Format: Month Day HH:MM:SS)
 
+**Answer**:
+
 ### A script file was opened using the "vi" text editor. What is the name of this file?
+
+**Answer**:
 
 ## Task 5 - Bomb has been planted. But when and where?
 
@@ -63,19 +69,29 @@ Task 1 was introduction, let's move on to Task 2!
 
 ### What is the command used that created the file `bomb.sh`?
 
+**Answer**:
+
 ### The file was renamed and moved to a different directory. What is the full path of this file now?
+
+**Answer**:
 
 ### When was the file from the previous question last modified? (Format: Month Day HH:MM)
 
+**Answer**:
+
 ### What is the name of the file that will get created when the file from the first question executes?
 
-## Task 6 - Following the fuse
+**Answer**:
+
+### Task 6 - Following the fuse
 
 > So we have a file and a motive. The question we now have is: how will this file be executed?
 >
 > Surely, he wants it to execute at some point?
 
 ### At what time will the malicious file trigger? (Format: HH:MM AM/PM)
+
+**Answer**:
 
 ## Task 7 - Conclusion
 
@@ -87,4 +103,4 @@ Task 1 was introduction, let's move on to Task 2!
 
 ## EOF
 
-I really like these rooms which fully commit to a story.
+I really like these rooms which fully commit to a story!  It helps to feel more like a real event.
