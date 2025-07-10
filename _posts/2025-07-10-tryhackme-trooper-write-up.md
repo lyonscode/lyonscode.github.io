@@ -26,8 +26,6 @@ The TryHackMe room Trooper can be found [here](https://tryhackme.com/room/troope
 
 > A multinational technology company has been the target of several cyber attacks in the past few months. The attackers have been successful in stealing sensitive intellectual property and causing disruptions to the company's operations. A threat advisory report about similar attacks has been shared, and as a CTI analyst, your task is to identify the Tactics, Techniques, and Procedures (TTPs) being used by the Threat group and gather as much information as possible about their identity and motive. For this task, you will utilise the OpenCTI platform as well as the MITRE ATT&CK navigator, linked to the details below. 
 
-
-
 ### What kind of phishing campaign does APT X use as part of their TTPs?
 
 **Answer**:
@@ -68,6 +66,6 @@ The TryHackMe room Trooper can be found [here](https://tryhackme.com/room/troope
 
 **Answer**:
 
-
+## EOF
 
 Tools used: OpenCTI, MITRE ATT&CK
