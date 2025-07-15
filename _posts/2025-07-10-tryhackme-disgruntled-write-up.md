@@ -49,6 +49,8 @@ This task only provides a Linux "cheat sheet" -- very helpful for the upcoming t
 
 We're looking for actions committed with elevated privileges, and in a Linux system, this means looking for uses of the `sudo` command.
 
+Let's start by seeing checking the `sudoers` list to see who has `sudo` permissions:
+
 
 
 **Answer**:
