@@ -51,7 +51,9 @@ We're looking for actions committed with elevated privileges, and in a Linux sys
 
 Let's start by seeing checking the `sudoers` list to see who has `sudo` permissions:
 
+![](/assets/img/uploads/sudoers-list.png)
 
+The account `cybert` (the name of our the company the former employee worked for) has sudo rights, so let's check 
 
 **Answer**:
 
