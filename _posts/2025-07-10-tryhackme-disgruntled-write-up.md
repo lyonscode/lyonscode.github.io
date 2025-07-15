@@ -27,13 +27,17 @@ The TryHackMe room Disgruntled can be found [here](https://tryhackme.com/room/di
 >
 > CyberT wants us to check if this person has done anything malicious to any of their assets. Get set up, grab a cup of coffee, and meet me in the conference room.
 
+This room will test our ability to navigate through the Linux command line to find evidence of potential system abuse.  We're given only a terminal as our machine:
+
+![](/assets/img/uploads/beginning-terminal.png)
+
 Task 1 was the above introduction.  Let's move on to Task 2!
 
 ## Task 2 - Linux Forensics review
 
 ![](/assets/img/uploads/linux-forensics-cheatsheet.png)
 
-This task only provides a Linux "cheat sheet" -- very helpful for the upcoming tasks.
+This task only provides a Linux "cheat sheet" -- very helpful for the upcoming tasks, but doesn't require anything from us.
 
 ## Task 3 - Nothing suspicious... So far
 
@@ -42,6 +46,10 @@ This task only provides a Linux "cheat sheet" -- very helpful for the upcoming t
 > My advice: Look at the privileged commands that were run. That should get you started.
 
 ### The user installed a package on the machine using elevated privileges. According to the logs, what is the full COMMAND?
+
+We're looking for actions committed with elevated privileges, and in a Linux system, this means looking for uses of the `sudo` command.
+
+
 
 **Answer**:
 
