@@ -27,11 +27,7 @@ The TryHackMe room Disgruntled can be found [here](https://tryhackme.com/room/di
 >
 > CyberT wants us to check if this person has done anything malicious to any of their assets. Get set up, grab a cup of coffee, and meet me in the conference room.
 
-Task 1 was the above introduction, which also provided the below credentials:
-
-
-
-Let's move on to Task 2!
+Task 1 was the above introduction.  Let's move on to Task 2!
 
 ## Task 2 - Linux Forensics review
 
@@ -110,3 +106,5 @@ This task only provides a Linux "cheat sheet" -- very helpful for the upcoming t
 ## EOF
 
 I really like these rooms which fully commit to a story!  It helps to feel more like a real event.
+
+Tools used: Linux CLI
