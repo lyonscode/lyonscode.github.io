@@ -65,9 +65,11 @@ The twice-filtered result directs us to our answer:
 
 ### What was the present working directory (PWD) when the previous command was run?
 
-The above command also gives us the answer 
+The above command also gives us the answer to this question:
 
-**Answer**:
+![](/assets/img/uploads/home-cybert.png)
+
+**Answer**: `/home/cybert`
 
 ## Task 4 - Let’s see if you did anything bad
 
