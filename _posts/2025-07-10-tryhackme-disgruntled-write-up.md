@@ -53,11 +53,19 @@ Let's start by seeing checking the `sudoers` list to see who has `sudo` permissi
 
 ![](/assets/img/uploads/sudoers-list.png)
 
-The account `cybert` (the name of our the company the former employee worked for) has sudo rights, so let's check 
+The account `cybert` (the name of our the company the former employee worked for) has sudo rights, so let's check for any installations this account may have run.
 
-**Answer**:
+We can do this by running `grep cybert /var/log/auth.log* | grep install`.  This command checks the authentication logs (`/var/log/auth.log*`) for all references of "cybert" (`grep cybert`), and then takes the results of that command and checks for all references of "install" (`grep install`).
+
+The twice-filtered result directs us to our answer:
+
+![](/assets/img/uploads/apt-install-dokuwiki.png)
+
+**Answer**: `/usr/bin/apt install dokuwiki`
 
 ### What was the present working directory (PWD) when the previous command was run?
+
+The above command also gives us the answer 
 
 **Answer**:
 
