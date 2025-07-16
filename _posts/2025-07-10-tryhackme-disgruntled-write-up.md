@@ -137,4 +137,6 @@ We can find evidence of the sudoers file being edited by looking for evidence of
 
 I really like these rooms which fully commit to a story!  It helps to feel more like a real event.
 
+![](/assets/img/uploads/badge-disgruntled.png)
+
 Tools used: Linux CLI
