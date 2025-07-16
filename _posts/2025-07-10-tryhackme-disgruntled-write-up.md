@@ -1,5 +1,5 @@
 ---
-date: 2025-07-10 15:04:58
+date: 2025-07-16 16:15:06
 layout: post
 title: TryHackMe - Disgruntled - Write-Up
 subtitle: Use your Linux forensics knowledge to investigate an incident.
