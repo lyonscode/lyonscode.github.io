@@ -99,6 +99,8 @@ And sure enough, look what we find:
 
 ![](/assets/img/uploads/vi-bomb.sh.png)
 
+A suspiciously named file, no?
+
 **Answer**: `bomb.sh`
 
 ## Task 5 - Bomb has been planted. But when and where?
