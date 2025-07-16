@@ -85,7 +85,11 @@ To find this answer, we'll search the logs in the same way: `grep cybert /var/lo
 
 ### A user was then later given sudo priveleges. When was the sudoers file updated? (Format: Month Day HH:MM:SS)
 
-**Answer**:
+We can find evidence of the sudoers file being edited by looking for evidence of the `visudo` command: `grep cybert /var/log/auth.log* | grep visudo`.  Looking at the results, we find one instance of cybert running the command, and pull the date from that.
+
+![](/assets/img/uploads/visudo.png)
+
+**Answer**: Dec 28 06:27:34
 
 ### A script file was opened using the "vi" text editor. What is the name of this file?
 
