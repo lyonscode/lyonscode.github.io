@@ -77,7 +77,11 @@ The above command also gives us the answer to this question:
 
 ### Which user was created after the package from the previous task was installed?
 
-**Answer**:
+To find this answer, we'll search the logs in the same way: `grep cybert /var/log/auth.log* | grep adduser`. This time we're searching for instances of the `adduser` command run by cybert.
+
+![](/assets/img/uploads/it-admin.png)
+
+**Answer**: it-admin
 
 ### A user was then later given sudo priveleges. When was the sudoers file updated? (Format: Month Day HH:MM:SS)
 
