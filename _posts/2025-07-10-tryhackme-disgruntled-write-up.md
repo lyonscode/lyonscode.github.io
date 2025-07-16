@@ -121,7 +121,9 @@ We know that `vi` was used to edit the `bomb.sh` file, so we can take a look at 
 
 ![](/assets/img/uploads/viminfo-bin-os-update.png)
 
-**Answer**:
+Sure enough, first thing we see is a rename of the file.
+
+**Answer**: `/bin/os-update.sh`
 
 ### When was the file from the previous question last modified? (Format: Month Day HH:MM)
 
