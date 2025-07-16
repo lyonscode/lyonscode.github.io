@@ -117,6 +117,10 @@ The answer to this question is found in the line above the answer to the previou
 
 ### The file was renamed and moved to a different directory. What is the full path of this file now?
 
+We know that `vi` was used to edit the `bomb.sh` file, so we can take a look at it-admin's `.vimhistory` to see what edits were made.
+
+![](/assets/img/uploads/viminfo-bin-os-update.png)
+
 **Answer**:
 
 ### When was the file from the previous question last modified? (Format: Month Day HH:MM)
