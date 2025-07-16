@@ -93,7 +93,13 @@ We can find evidence of the sudoers file being edited by looking for evidence of
 
 ### A script file was opened using the "vi" text editor. What is the name of this file?
 
-**Answer**:
+We can find this by looking through the `.bash_history` file of a user.  It *could* be in cybert's home folder, but dollars to donuts we will find evidence of the file in the newly created it-admin's history.  Why else might the account have been created?
+
+And sure enough, look what we find:
+
+![](/assets/img/uploads/vi-bomb.sh.png)
+
+**Answer**: `bomb.sh`
 
 ## Task 5 - Bomb has been planted. But when and where?
 
