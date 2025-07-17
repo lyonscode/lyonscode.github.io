@@ -167,7 +167,7 @@ In this file, we see that `/bin/os-update.sh` is scheduled.  Reading from left t
 
 ## EOF
 
-I really like these rooms which fully commit to a story!  It helps to feel more like a real event.
+I really like these rooms which fully commit to a story!  It helps to feel more like a real event.  Hunting for clues through the Linux command line is always fun too.
 
 ![](/assets/img/uploads/badge-disgruntled.png)
 
