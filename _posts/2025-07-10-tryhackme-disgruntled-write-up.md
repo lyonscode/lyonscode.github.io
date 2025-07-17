@@ -127,7 +127,11 @@ Sure enough, first thing we see is a rename of the file.
 
 ### When was the file from the previous question last modified? (Format: Month Day HH:MM)
 
-**Answer**:
+We can find this answer with the command `ls -la --full-time /bin/os-update.sh`, and then format it as requested.
+
+![](/assets/img/uploads/full-time.png)
+
+ **Answer**: Dec 28 06:29
 
 ### What is the name of the file that will get created when the file from the first question executes?
 
