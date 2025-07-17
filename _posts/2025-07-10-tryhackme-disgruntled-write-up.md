@@ -141,13 +141,15 @@ Let's take a look at the `os-update.sh` file's contents.  It's not a terribly lo
 
 **Answer**: `goodbye.txt`
 
-### Task 6 - Following the fuse
+## Task 6 - Following the fuse
 
 > So we have a file and a motive. The question we now have is: how will this file be executed?
 >
 > Surely, he wants it to execute at some point?
 
 ### At what time will the malicious file trigger? (Format: HH:MM AM/PM)
+
+When it comes to automated jobs in a Linux environment, the obvious place to check is the `crontab` file.  We can do this with `cat /etc/crontab`.  
 
 **Answer**:
 
