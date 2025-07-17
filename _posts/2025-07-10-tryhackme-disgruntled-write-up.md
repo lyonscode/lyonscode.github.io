@@ -149,9 +149,13 @@ Let's take a look at the `os-update.sh` file's contents.  It's not a terribly lo
 
 ### At what time will the malicious file trigger? (Format: HH:MM AM/PM)
 
-When it comes to automated jobs in a Linux environment, the obvious place to check is the `crontab` file.  We can do this with `cat /etc/crontab`.  
+When it comes to automated jobs in a Linux environment, the obvious place to check is the `crontab` file.  We can do this with `cat /etc/crontab`.
 
-**Answer**:
+![](/assets/img/uploads/os-update-crontab.png)
+
+In this file, we see that `/bin/os-update.sh` is scheduled.  Reading from left to right, we see that the script is going to execute as 0 minutes past the hour at the 8th hour of the day, which is to say...
+
+**Answer**: 08:00 AM
 
 ## Task 7 - Conclusion
 
