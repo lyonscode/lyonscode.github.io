@@ -5,6 +5,7 @@ title: TryHackMe - Disgruntled - Write-Up
 subtitle: Use your Linux forensics knowledge to investigate an incident.
 description: A walkthrough of the TryHackMe room Disgruntled
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/03de138b8dfa8f5b003298c17b73fbd8.png
+optimized_image: /assets/img/uploads/disgruntled-resized.png
 category: write-up
 tags:
   - disgruntled
