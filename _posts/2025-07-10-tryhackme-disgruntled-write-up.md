@@ -135,6 +135,10 @@ We can find this answer with the command `ls -la --full-time /bin/os-update.sh`,
 
 ### What is the name of the file that will get created when the file from the first question executes?
 
+Let's take a look at the `os-update.sh` file's contents.  It's not a terribly long program, so we can just `cat` it to the terminal.
+
+
+
 **Answer**:
 
 ### Task 6 - Following the fuse
