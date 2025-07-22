@@ -21,7 +21,11 @@ paginate: false
 ---
 The TryHackMe room "Warzone 2" can be found [here](https://tryhackme.com/room/warzonetwo).
 
-
+> You work as a Tier 1 Security Analyst L1 for a Managed Security Service Provider (MSSP). Again, you're tasked with monitoring network alerts.
+>
+> An alert triggered: **Misc activity**, **A Network Trojan Was Detected**, and **Potential Corporate Privacy Violation**. 
+>
+> The case was assigned to you. Inspect the PCAP and retrieve the artifacts to confirm this alert is a true positive. 
 
 ### What was the alert signature for **A Network Trojan was Detected**?
 
