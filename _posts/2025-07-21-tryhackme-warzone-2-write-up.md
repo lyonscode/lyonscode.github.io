@@ -29,20 +29,40 @@ The TryHackMe room "Warzone 2" can be found [here](https://tryhackme.com/room/wa
 
 ### What was the alert signature for **A Network Trojan was Detected**?
 
+**Answer**:
+
 ### What was the alert signature for **Potential Corporate Privacy Violation**?
 
-### What was the IP to trigger either alert? Enter your answer in a **defanged** format. 
+**Answer**:
 
-### Provide the full URI for the malicious downloaded file. In your answer, **defang** the URI. 
+### What was the IP to trigger either alert? Enter your answer in a **defanged** format.
 
-### What is the name of the payload within the cab file? 
+**Answer**: 
+
+### Provide the full URI for the malicious downloaded file. In your answer, **defang** the URI.
+
+**Answer**:
+
+### What is the name of the payload within the cab file?
+
+**Answer**:
 
 ### What is the user-agent associated with this network traffic?
 
+**Answer**:
+
 ### What other domains do you see in the network traffic that are labelled as malicious by VirusTotal? Enter the domains **defanged** and in alphabetical order. (**format: domain\[.]zzz,domain\[.]zzz**)
+
+**Answer**:
 
 ### There are IP addresses flagged as **Not Suspicious Traffic**. What are the IP addresses? Enter your answer in numerical order and **defanged**. (format: IPADDR,IPADDR)
 
+**Answer**:
+
 ### For the first IP address flagged as Not Suspicious Traffic. According to VirusTotal, there are several domains associated with this one IP address that was flagged as malicious. What were the domains you spotted in the network traffic associated with this IP address? Enter your answer in a **defanged** format. Enter your answer in alphabetical order, in a defanged format. (**format: domain\[.]zzz,domain\[.]zzz,etc**)
 
+**Answer**:
+
 ### Now for the second IP marked as Not Suspicious Traffic. What was the domain you spotted in the network traffic associated with this IP address? Enter your answer in a **defanged** format. (format: domain\[.]zzz)
+
+**Answer**:
