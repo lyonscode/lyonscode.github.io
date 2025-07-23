@@ -43,7 +43,11 @@ We begin by opening the provided `.pcap` file in Brim...
 
 ### What was the alert signature for **Potential Corporate Privacy Violation**?
 
-**Answer**:
+We rinse and repeat to find this answer.
+
+![](/assets/img/uploads/potential-corporate-privacy-violation.png)
+
+**Answer**: ET POLICY PE EXE or DLL Windows file download HTTP
 
 ### What was the IP to trigger either alert? Enter your answer in a **defanged** format.
 
