@@ -155,7 +155,11 @@ We can corroborate this in VirusTotal.
 
 ### Now for the second IP marked as Not Suspicious Traffic. What was the domain you spotted in the network traffic associated with this IP address? Enter your answer in a **defanged** format. (format: domain\[.]zzz)
 
-**Answer**:
+We can run a similar query on the second IP to get our answer.
+
+
+
+**Answer**: 2partscow\[.]top
 
 ## EOF
 
