@@ -99,9 +99,27 @@ Putting the hash into [VirusTotal](https://www.virustotal.com/gui/file/3769a84db
 
 ### What is the user-agent associated with this network traffic?
 
-**Answer**:
+Returning back to the details for the http packet, we can check the user_agent field for the answer to this question.
+
+![](/assets/img/uploads/user_agent-warzone-2.png)
+
+(Interesting that this feels like it was asked out of sequence.)
+
+**Answer**: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/8.0; .NET4.0C; .NET4.0E)
 
 ### What other domains do you see in the network traffic that are labelled as malicious by VirusTotal? Enter the domains **defanged** and in alphabetical order. (**format: domain\[.]zzz,domain\[.]zzz**)
+
+We never checked the "Misc activity" alerts, so let's investigate those.
+
+![](/assets/img/uploads/misc-activity-warzone-2.png)
+
+In doing so, we're presented with two source IP addresses, one of which we're already familiar with.  Let's look for more packets related to the 176\[.]119\[.]156\[.]128 address.
+
+
+
+
+
+In doing so, we see two domains keep popping up.  
 
 **Answer**:
 
