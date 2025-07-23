@@ -87,7 +87,7 @@ To find this answer, we start by going back to the search for `gap1.cab` and sel
 
 ![](/assets/img/uploads/search-gap1.cab-2.png)
 
-We pull the MD5 hash so we can put it into VirusTotal and learn more what's been uncovered about this file.
+We pull the MD5 hash so we can put it into VirusTotal and learn what's been uncovered about this file.
 
 ![](/assets/img/uploads/md5-hash-warzone-2.png)
 
