@@ -91,9 +91,9 @@ We pull the MD5 hash so we can put it into VirusTotal and learn what's been unco
 
 ![](/assets/img/uploads/md5-hash-warzone-2.png)
 
-In VirusTotal, we find the name of the payload.
+Putting the hash into [VirusTotal](https://www.virustotal.com/gui/file/3769a84dbe7ba74ad7b0b355a864483d3562888a67806082ff094a56ce73bf7e/details), we find the name of the payload.
 
-
+![](/assets/img/uploads/virustotal-draw.dll-warzone-2.png)
 
 **Answer**: draw.dll
 
