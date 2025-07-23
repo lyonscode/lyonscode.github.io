@@ -1,5 +1,5 @@
 ---
-date: 2025-07-23 15:35:17
+date: 2025-07-23 16:20:59
 layout: post
 title: TryHackMe - Warzone 2 - Write-Up
 description: "You received another IDS/IPS alert. Time to triage the alert to
@@ -157,12 +157,10 @@ We can corroborate this in VirusTotal.
 
 We can run a similar query on the second IP to get our answer.
 
-
-
 **Answer**: 2partscow\[.]top
 
 ## EOF
 
-Another quick exploration of suspicious traffic in Brim.
+Another quick exploration of suspicious traffic in Brim.  I really like this tool -- it's fun to be able to parse through packet captures in such a nice GUI.
 
 Tools used: Brim
