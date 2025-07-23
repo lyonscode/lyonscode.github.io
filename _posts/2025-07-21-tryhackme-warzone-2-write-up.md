@@ -83,6 +83,12 @@ We can see `host` and `uri` fields in the Detail window.  Combining these two fi
 
 ### What is the name of the payload within the cab file?
 
+To find this answer, we start by going back to the search for `gap1.cab` and selecting the `files` packet.
+
+
+
+We pull the MD5 hash so we can put it into VirusTotal and learn more what's been uncovered about this file.
+
 **Answer**:
 
 ### What is the user-agent associated with this network traffic?
