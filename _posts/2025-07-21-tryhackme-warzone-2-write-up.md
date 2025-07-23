@@ -137,7 +137,7 @@ We can find this traffic by searching `alert.category == "Not Suspicious Traffic
 
 [CyberChef](https://gchq.github.io/CyberChef/#recipe=Defang_IP_Addresses()&input=NjQuMjI1LjY1LjE2NiwxNDIuOTMuMjExLjE3Ng) can defang.
 
-**Answer**:
+**Answer**: 64\[.]225\[.]65\[.]166,142\[.]93\[.]211\[.]176
 
 ### For the first IP address flagged as Not Suspicious Traffic. According to VirusTotal, there are several domains associated with this one IP address that was flagged as malicious. What were the domains you spotted in the network traffic associated with this IP address? Enter your answer in a **defanged** format. Enter your answer in alphabetical order, in a defanged format. (**format: domain\[.]zzz,domain\[.]zzz,etc**)
 
