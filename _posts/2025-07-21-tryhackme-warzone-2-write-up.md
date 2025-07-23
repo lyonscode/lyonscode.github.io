@@ -127,6 +127,16 @@ There we go!  Once again, [CyberChef](https://gchq.github.io/CyberChef/#recipe=D
 
 ### There are IP addresses flagged as **Not Suspicious Traffic**. What are the IP addresses? Enter your answer in numerical order and **defanged**. (format: IPADDR,IPADDR)
 
+I like the title "Not Suspicious Traffic".  Immediately sounds suspicious to me, though I suppose we can take it at its word.
+
+![](https://allears.net/wp-content/uploads/2020/12/dont-be-suspicious-parks-and-rec-gif.gif)
+
+We can find this traffic by searching `alert.category == "Not Suspicious Traffic"`[](https://gchq.github.io/CyberChef/#recipe=Defang_IP_Addresses()&input=NjQuMjI1LjY1LjE2NiwxNDIuOTMuMjExLjE3Ng).  This gives us the two IP addresses.
+
+![](/assets/img/uploads/not-suspicious-traffic-warzone-2.png)
+
+[CyberChef](https://gchq.github.io/CyberChef/#recipe=Defang_IP_Addresses()&input=NjQuMjI1LjY1LjE2NiwxNDIuOTMuMjExLjE3Ng) can defang.
+
 **Answer**:
 
 ### For the first IP address flagged as Not Suspicious Traffic. According to VirusTotal, there are several domains associated with this one IP address that was flagged as malicious. What were the domains you spotted in the network traffic associated with this IP address? Enter your answer in a **defanged** format. Enter your answer in alphabetical order, in a defanged format. (**format: domain\[.]zzz,domain\[.]zzz,etc**)
