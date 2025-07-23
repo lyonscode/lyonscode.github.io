@@ -25,11 +25,15 @@ The TryHackMe room "Warzone 2" can be found [here](https://tryhackme.com/room/wa
 >
 > An alert triggered: **Misc activity**, **A Network Trojan Was Detected**, and **Potential Corporate Privacy Violation**. 
 >
-> The case was assigned to you. Inspect the PCAP and retrieve the artifacts to confirm this alert is a true positive. 
+> The case was assigned to you. Inspect the PCAP and retrieve the artifacts to confirm this alert is a true positive.
+
+This room is a follow-up to "Warzone 1".  Let's get started!
 
 ### What was the alert signature for **A Network Trojan was Detected**?
 
-**Answer**:
+We begin by opening Brim.
+
+**Answer**: 
 
 ### What was the alert signature for **Potential Corporate Privacy Violation**?
 
