@@ -156,3 +156,9 @@ We can corroborate this in VirusTotal.
 ### Now for the second IP marked as Not Suspicious Traffic. What was the domain you spotted in the network traffic associated with this IP address? Enter your answer in a **defanged** format. (format: domain\[.]zzz)
 
 **Answer**:
+
+## EOF
+
+Another quick exploration of suspicious traffic in Brim.
+
+Tools used: Brim
