@@ -141,7 +141,17 @@ We can find this traffic by searching `alert.category == "Not Suspicious Traffic
 
 ### For the first IP address flagged as Not Suspicious Traffic. According to VirusTotal, there are several domains associated with this one IP address that was flagged as malicious. What were the domains you spotted in the network traffic associated with this IP address? Enter your answer in a **defanged** format. Enter your answer in alphabetical order, in a defanged format. (**format: domain\[.]zzz,domain\[.]zzz,etc**)
 
-**Answer**:
+We can find a list of contacted domains by searching `_path=="ssl" | id.resp_h==64.225.65.166 | by server_name | sort server_name`.
+
+![](/assets/img/uploads/server_name-1-warzone-2.png)
+
+We can corroborate this in VirusTotal.
+
+![](/assets/img/uploads/server_name-1-virustotal-warzone-2.png)
+
+[CyberChef](https://gchq.github.io/CyberChef/#recipe=Defang_URL(true,true,true,'Valid%20domains%20and%20full%20URLs')&input=c2FmZWJhbmt0ZXN0LnRvcCx0b2NzaWNhbWJhci54eXosdWxjZXJ0aWZpY2F0aW9uLnh5eg) defangs for us.
+
+**Answer**: safebanktest\[.]top,tocsicambar\[.]xyz,ulcertification\[.]xyz
 
 ### Now for the second IP marked as Not Suspicious Traffic. What was the domain you spotted in the network traffic associated with this IP address? Enter your answer in a **defanged** format. (format: domain\[.]zzz)
 
