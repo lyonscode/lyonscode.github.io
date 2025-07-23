@@ -91,11 +91,9 @@ I then searched for references to that name in the `.pcap` file.
 
 We're looking for the full URI of the downloaded file, so I opened the `http` packet in more detail.
 
+![](/assets/img/uploads/host-and-uri-warzone-2.png)
 
-
-
-
-
+We can see `host` and `uri` fields in the Detail window.  Combining these two fields gets us our answer.  [CyberChef ](https://gchq.github.io/CyberChef/#recipe=Defang_URL(true,true,true,'Valid%20domains%20and%20full%20URLs')&input=YXdoOTNkaGt5bHBzNXVsbnEtYmUuY29tL2N6d2loL2Z4bGEucGhwP2w9Z2FwMS5jYWI)can once again defang (or we can do it ourselves).
 
 **Answer**: awh93dhkylps5ulnq-be\[.]com/czwih/fxla\[.]php?l=gap1\[.]cab
 
