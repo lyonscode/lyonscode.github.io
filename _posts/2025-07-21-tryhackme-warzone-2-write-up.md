@@ -115,13 +115,15 @@ We never checked the "Misc activity" alerts, so let's investigate those.
 
 In doing so, we're presented with two source IP addresses, one of which we're already familiar with.  Let's look for more packets related to the 176\[.]119\[.]156\[.]128 address.
 
+![](/assets/img/uploads/domains-brim-warzone-2.png)
 
+In doing so, we see two domains keep popping up.  These are most likely our answers, but let's confirm this on VirusTotal.
 
+![](/assets/img/uploads/domains-virus-total-warzone-2.png)
 
+There we go!  Once again, [CyberChef](https://gchq.github.io/CyberChef/#recipe=Defang_URL(true,true,true,'Valid%20domains%20and%20full%20URLs')&input=YS16Y29ybmVyLmNvbSxrbm9ja291dGxpZ2h0cy5jb20) will defang.
 
-In doing so, we see two domains keep popping up.  
-
-**Answer**:
+**Answer**: a-zcorner\[.]com,knockoutlights\[.]com
 
 ### There are IP addresses flagged as **Not Suspicious Traffic**. What are the IP addresses? Enter your answer in numerical order and **defanged**. (format: IPADDR,IPADDR)
 
