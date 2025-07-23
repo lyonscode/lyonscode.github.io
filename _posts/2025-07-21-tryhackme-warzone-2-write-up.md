@@ -121,7 +121,7 @@ In doing so, we see two domains keep popping up.  These are most likely our answ
 
 ![](/assets/img/uploads/domains-virus-total-warzone-2.png)
 
-There we go!  Once again, [CyberChef](https://gchq.github.io/CyberChef/#recipe=Defang_URL(true,true,true,'Valid%20domains%20and%20full%20URLs')&input=YS16Y29ybmVyLmNvbSxrbm9ja291dGxpZ2h0cy5jb20) will defang.
+There we go!  Once again, [CyberChef](https://gchq.github.io/CyberChef/#recipe=Defang_URL(true,true,true,'Valid%20domains%20and%20full%20URLs')&input=YS16Y29ybmVyLmNvbSxrbm9ja291dGxpZ2h0cy5jb20) will defang for us.
 
 **Answer**: a-zcorner\[.]com,knockoutlights\[.]com
 
