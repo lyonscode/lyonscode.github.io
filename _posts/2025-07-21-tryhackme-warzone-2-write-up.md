@@ -89,7 +89,13 @@ To find this answer, we start by going back to the search for `gap1.cab` and sel
 
 We pull the MD5 hash so we can put it into VirusTotal and learn more what's been uncovered about this file.
 
-**Answer**:
+![](/assets/img/uploads/md5-hash-warzone-2.png)
+
+In VirusTotal, we find the name of the payload.
+
+
+
+**Answer**: draw.dll
 
 ### What is the user-agent associated with this network traffic?
 
