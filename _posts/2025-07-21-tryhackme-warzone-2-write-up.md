@@ -33,13 +33,13 @@ This room is a follow-up to "Warzone 1".  Let's get started!
 
 We begin by opening the provided `.pcap` file in Brim...
 
-![]()
+![](/assets/img/uploads/brim.png)
 
 ...and searching the phrase "A Network Trojan was Detected".
 
-![]()
+![](/assets/img/uploads/a-network-trojan-was-detected.png)
 
-**Answer**: 
+**Answer**: ET MALWARE Likely Evil EXE download from MSXMLHTTP non-exe extension M2
 
 ### What was the alert signature for **Potential Corporate Privacy Violation**?
 
