@@ -77,7 +77,27 @@ In the `src_ip` field we find our answer.  We can then defang the IP address by 
 
 ### Provide the full URI for the malicious downloaded file. In your answer, **defang** the URI.
 
-**Answer**:
+
+
+I found the answer to this question by clicking on "File Activity" under "Queries"...
+
+![](/assets/img/uploads/file-activity-warzone-2.png)
+
+...which brought me to the filename: `gap1.cab`.
+
+I then searched for references to that name in the `.pcap` file.
+
+![](/assets/img/uploads/search-gap1.cab.png)
+
+We're looking for the full URI of the downloaded file, so I opened the `http` packet in more detail.
+
+
+
+
+
+
+
+**Answer**: awh93dhkylps5ulnq-be\[.]com/czwih/fxla\[.]php?l=gap1\[.]cab
 
 ### What is the name of the payload within the cab file?
 
