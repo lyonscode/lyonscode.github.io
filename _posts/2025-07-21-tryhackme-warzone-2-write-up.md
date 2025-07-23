@@ -31,7 +31,13 @@ This room is a follow-up to "Warzone 1".  Let's get started!
 
 ### What was the alert signature for **A Network Trojan was Detected**?
 
-We begin by opening Brim.
+We begin by opening the provided `.pcap` file in Brim...
+
+![]()
+
+...and searching the phrase "A Network Trojan was Detected".
+
+![]()
 
 **Answer**: 
 
