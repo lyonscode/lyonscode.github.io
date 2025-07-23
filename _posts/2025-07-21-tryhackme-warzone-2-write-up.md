@@ -85,7 +85,7 @@ We can see `host` and `uri` fields in the Detail window.  Combining these two fi
 
 To find this answer, we start by going back to the search for `gap1.cab` and selecting the `files` packet.
 
-
+![](/assets/img/uploads/search-gap1.cab-2.png)
 
 We pull the MD5 hash so we can put it into VirusTotal and learn more what's been uncovered about this file.
 
