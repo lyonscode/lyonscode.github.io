@@ -51,6 +51,26 @@ We rinse and repeat to find this answer.
 
 ### What was the IP to trigger either alert? Enter your answer in a **defanged** format.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For a cleaner look at the info, we'll open the Brim Log Detail window by double-clicking the alert.
+
+![](/assets/img/uploads/src_ip-warzone-2.png)
+
+In the `src_ip` field we find our answer.  We can then defang the IP address by using [CyberChef](https://gchq.github.io/CyberChef/#recipe=Defang_IP_Addresses()&input=MTg1LjExOC4xNjQuOA).
+
 **Answer**: 
 
 ### Provide the full URI for the malicious downloaded file. In your answer, **defang** the URI.
