@@ -71,7 +71,9 @@ For a cleaner look at the info, we'll open the Brim Log Detail window by double-
 
 In the `src_ip` field we find our answer.  We can then defang the IP address by using [CyberChef](https://gchq.github.io/CyberChef/#recipe=Defang_IP_Addresses()&input=MTg1LjExOC4xNjQuOA).
 
-**Answer**: 
+![](/assets/img/uploads/defanged-ip-warzone-2.png)
+
+**Answer**: 185\[.]118\[.]164\[.]8
 
 ### Provide the full URI for the malicious downloaded file. In your answer, **defang** the URI.
 
