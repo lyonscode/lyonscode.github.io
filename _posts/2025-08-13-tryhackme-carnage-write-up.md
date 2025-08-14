@@ -42,54 +42,56 @@ Answer format: \*\*\*/\*.\*.\**
 
 Answer format: \*\*\*\*\*\*\*\*\*\*.\*\*\*.\*\*, \*\*\*\*\*\*\*\*\*\*.\*\*\*, \*\*\*.\*\*\*\*\*\*\*\*\*.\*\**
 
-Which certificate authority issued the SSL certificate to the first domain from the previous question?
+### Which certificate authority issued the SSL certificate to the first domain from the previous question?
 
 Answer format: \*\*\*\*\*\**
 
-What are the two IP addresses of the Cobalt Strike servers? Use VirusTotal (the Community tab) to confirm if IPs are identified as Cobalt Strike C2 servers. (answer format: enter the IP addresses in sequential order)
+### What are the two IP addresses of the Cobalt Strike servers? Use VirusTotal (the Community tab) to confirm if IPs are identified as Cobalt Strike C2 servers. (answer format: enter the IP addresses in sequential order)
 
 Answer format: \*\*\*.\*\*\*.\*\*.\*\*\*, \*\*\*.\*\*\*.\*\*\*.\*\**
 
-What is the Host header for the first Cobalt Strike IP address from the previous question?
+### What is the Host header for the first Cobalt Strike IP address from the previous question?
 
-Answer format: \*\*\*\*.\*\*\*\*\*\*\*\*.\*\**
+**Answer**:
 
-What is the domain name for the first IP address of the Cobalt Strike server? You may use VirusTotal to confirm if it's the Cobalt Strike server (check the Community tab).
+### What is the domain name for the first IP address of the Cobalt Strike server? You may use VirusTotal to confirm if it's the Cobalt Strike server (check the Community tab).
 
 Answer format: \*\*\*\*\*\*\*\*\*.\*\*\**
 
-What is the domain name of the second Cobalt Strike server IP?  You may use VirusTotal to confirm if it's the Cobalt Strike server (check the Community tab).
+### What is the domain name of the second Cobalt Strike server IP?  You may use VirusTotal to confirm if it's the Cobalt Strike server (check the Community tab).
 
 Answer format: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*
 
-What is the domain name of the post-infection traffic?
+### What is the domain name of the post-infection traffic?
 
 Answer format: \*\*\*\*\*\*\*\*\*\*\*.\*\*\*
 
-What are the first eleven characters that the victim host sends out to the malicious domain involved in the post-infection traffic? 
+### What are the first eleven characters that the victim host sends out to the malicious domain involved in the post-infection traffic? 
 
 Answer format: \*\*\*\*\*\*\*\*\*\**
 
-What was the length for the first packet sent out to the C2 server?
+### What was the length for the first packet sent out to the C2 server?
 
 Answer format: \*\**
 
-What was the Server header for the malicious domain from the previous question?
+### What was the Server header for the malicious domain from the previous question?
 
 Answer format: \*\*\*\*\*\*/\*.\*.\*\* \*\*\*\*\*\*\*\* \*\*\*\*\*\*\*/\*.\*.\*\* \*\*\*_\*\*\*\*\*\*\*\*\*/\*.*
 
-The malware used an API to check for the IP address of the victim’s machine. What was the date and time when theDNSquery for the IP check domain occurred? (**answer format**: yyyy-mm-dd hh:mm:ss UTC)
+### The malware used an API to check for the IP address of the victim’s machine. What was the date and time when theDNSquery for the IP check domain occurred? 
+
+(**answer format**: yyyy-mm-dd hh:mm:ss UTC)
 
 Answer format: \*\*\*\*\*\*\*\*\*\* \*\*:\*\*:\*\*
 
-What was the domain in the DNS query from the previous question?
+### What was the domain in the DNS query from the previous question?
 
-Answer format: \*\*\*.\*\*\*\*\*.\*\**
+**Answer**:
 
-Looks like there was some malicious spam (malspam) activity going on. What was the first MAIL FROM address observed in the traffic?
+### Looks like there was some malicious spam (malspam) activity going on. What was the first MAIL FROM address observed in the traffic?
 
-Answer format: \*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\**
+**Answer**: 
 
-How many packets were observed for the SMTPtraffic?
+### How many packets were observed for the SMTPtraffic?
 
-<!--EndFragment-->
+**Answer**:
