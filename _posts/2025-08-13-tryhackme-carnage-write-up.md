@@ -1,5 +1,5 @@
 ---
-date: 2025-08-13 16:22:53
+date: 2025-08-07 12:55:04
 layout: post
 title: TryHackMe - Carnage - Write-Up
 description: A walkthrough of the TryHackMe room Carnage
