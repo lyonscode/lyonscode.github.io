@@ -51,6 +51,14 @@ The host domain is provided by the Hypertext Transfer Protocol section of the pa
 
 ### Without downloading the file, what is the name of the file in the zip file?
 
+We can look for the file name by following the HTTP stream of the download request packet, as such:
+
+![](/assets/img/uploads/carnage-follow-http-stream.png)
+
+Opening this up, we can see a filename with an Excel extension buried among the noise.  This is most likely our file.
+
+![](/assets/img/uploads/carnage-downloaded-filename.png)
+
 **Answer**: `chart-1530076591.xls`
 
 ### What is the name of the webserver of the malicious IP from which the zip file was downloaded?
