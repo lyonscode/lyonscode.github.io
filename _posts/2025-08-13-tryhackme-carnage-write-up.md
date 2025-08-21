@@ -51,7 +51,7 @@ The host domain is provided by the Hypertext Transfer Protocol section of the pa
 
 ### Without downloading the file, what is the name of the file in the zip file?
 
-Answer format: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\**
+**Answer**: `chart-1530076591.xls`
 
 ### What is the name of the webserver of the malicious IP from which the zip file was downloaded?
 
