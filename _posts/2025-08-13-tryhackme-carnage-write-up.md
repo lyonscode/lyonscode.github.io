@@ -81,7 +81,7 @@ This took a second for me to determine what search parameters would return this 
 
 `dns and (frame.time >= "2021-09-24 16:45:11") && (frame.time <= "2021-09-24 16:45:30")`
 
-``
+![](/assets/img/uploads/carnage-malicious-domains.png)
 
 This sent back 10 frames, which include our answers.
 
