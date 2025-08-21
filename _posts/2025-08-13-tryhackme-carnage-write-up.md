@@ -4,6 +4,7 @@ layout: post
 title: TryHackMe - Carnage - Write-Up
 description: A walkthrough of the TryHackMe room Carnage
 image: https://assets.tryhackme.com/additional/carnage/carnage.png
+optimized_image: /assets/img/uploads/carnage.png
 category: write-up
 author: Michael
 paginate: false
