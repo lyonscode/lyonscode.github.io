@@ -63,11 +63,17 @@ Opening this up, we can see a filename with an Excel extension buried among the 
 
 ### What is the name of the webserver of the malicious IP from which the zip file was downloaded?
 
-Answer format: \*\*\*\*\*\*\*\**
+We can actually find the answer to the next two questions with this window as well.
+
+![](/assets/img/uploads/carnage-litespeed.png)
+
+**Answer**: LiteSpeed
 
 ### What is the version of the webserver from the previous question?
 
-Answer format: \*\*\*/\*.\*.\**
+![](/assets/img/uploads/carnage-server-version.png)
+
+**Answer**: PHP/7.2.34
 
 ### Malicious files were downloaded to the victim host from multiple domains. What were the threedomains involved with this activity?
 
