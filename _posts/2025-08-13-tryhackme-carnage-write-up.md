@@ -75,7 +75,7 @@ We can actually find the answer to the next two questions with this window as we
 
 **Answer**: PHP/7.2.34
 
-### Malicious files were downloaded to the victim host from multiple domains. What were the threedomains involved with this activity?
+### Malicious files were downloaded to the victim host from multiple domains. What were the three domains involved with this activity?
 
 Answer format: \*\*\*\*\*\*\*\*\*\*.\*\*\*.\*\*, \*\*\*\*\*\*\*\*\*\*.\*\*\*, \*\*\*.\*\*\*\*\*\*\*\*\*.\*\**
 
