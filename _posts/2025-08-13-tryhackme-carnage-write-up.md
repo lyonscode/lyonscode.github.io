@@ -45,7 +45,7 @@ This information is readily found in the info category for the packet.
 
 The host domain is provided by the Hypertext Transfer Protocol section of the packet.
 
-
+![](/assets/img/uploads/host-domain-documents-zip.png)
 
 **Answer**: `attirenepal.com`
 
