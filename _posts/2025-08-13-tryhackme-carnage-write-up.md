@@ -18,21 +18,35 @@ As such, we should be very careful **NOT** to visit any of the addresses found i
 
 > Are you ready for the journey?
 
-Let's get started!
+Let's load the provided pcap file into Wireshark and get started!
 
 ### What was the date and time for the first HTTP connection to the malicious IP?
 
 (**answer format**: yyyy-mm-dd hh:mm:ss)
 
-Answer: 
+We can find the answer to this by simply filtering for `http` in Wireshark.  Since we're looking for the first connection, it's the first packet that comes up.
+
+![](/assets/img/uploads/first-http-visit-arrival-time.png)
+
+We then take the "Arrival Time" for this packet and format it to the question's standard.
+
+**Answer**: 2021-09-24 16:44:38
 
 ### What is the name of the zip file that was downloaded?
 
-Answer: 
+This information is readily found in the info category for the packet.
+
+![](/assets/img/uploads/downloaded-zip-file.png)
+
+**Answer**: `documents.zip`
 
 ### What was the domain hosting the malicious zip file?
 
-Answer format: \*\*\*\*\*\*\*\*\*\*\*.\*\*\*
+The host domain is provided by the Hypertext Transfer Protocol section of the packet.
+
+
+
+**Answer**: `attirenepal.com`
 
 ### Without downloading the file, what is the name of the file in the zip file?
 
