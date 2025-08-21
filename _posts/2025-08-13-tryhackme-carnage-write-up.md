@@ -12,6 +12,14 @@ The TryHackMe room Carnage can be found [here](https://tryhackme.com/room/c2carn
 
 > Eric Fischer from the Purchasing Department at Bartell Ltd has received an email from a known contact with a Word document attachment.  Upon opening the document, he accidentally clicked on "Enable Content."  The SOC Department immediately received an alert from the endpoint agent that Eric's workstation was making suspicious connections outbound. The pcap was retrieved from the network sensor and handed to you for analysis. 
 
+Today we some interesting work ahead of us: we'll be looking at actual malicious traffic captured by a member of the InfoSec community.
+
+As such, we should be very careful **NOT** to visit any of the addresses found in our investigation as they are known untrustworthy at best and outright malicious at worse.
+
+> Are you ready for the journey?
+
+Let's get started!
+
 ### What was the date and time for the first HTTP connection to the malicious IP?
 
 (**answer format**: yyyy-mm-dd hh:mm:ss)
@@ -78,7 +86,7 @@ Answer format: \*\**
 
 Answer format: \*\*\*\*\*\*/\*.\*.\*\* \*\*\*\*\*\*\*\* \*\*\*\*\*\*\*/\*.\*.\*\* \*\*\*_\*\*\*\*\*\*\*\*\*/\*.*
 
-### The malware used an API to check for the IP address of the victim’s machine. What was the date and time when theDNSquery for the IP check domain occurred? 
+### The malware used an API to check for the IP address of the victim’s machine. What was the date and time when theDNSquery for the IP check domain occurred?
 
 (**answer format**: yyyy-mm-dd hh:mm:ss UTC)
 
