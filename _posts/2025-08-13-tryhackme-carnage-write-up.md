@@ -77,7 +77,15 @@ We can actually find the answer to the next two questions with this window as we
 
 ### Malicious files were downloaded to the victim host from multiple domains. What were the three domains involved with this activity?
 
-Answer format: \*\*\*\*\*\*\*\*\*\*.\*\*\*.\*\*, \*\*\*\*\*\*\*\*\*\*.\*\*\*, \*\*\*.\*\*\*\*\*\*\*\*\*.\*\**
+This took a second for me to determine what search parameters would return this information.  The hint provided tells us to look in a very narrow time range, only 19 seconds.  Combining the provided time frame with the knowledge that we were looking domain names, I crafted the below search:
+
+`dns and (frame.time >= "2021-09-24 16:45:11") && (frame.time <= "2021-09-24 16:45:30")`
+
+``
+
+This sent back 10 frames, which include our answers.
+
+**Answer**: `finejewels.com.au`, `thietbiagt.com`, `new.americold.com`
 
 ### Which certificate authority issued the SSL certificate to the first domain from the previous question?
 
