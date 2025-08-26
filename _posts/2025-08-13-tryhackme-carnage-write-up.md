@@ -115,7 +115,7 @@ We see 10.9.23.102 communicating with a lot of other addresses, but we don't kno
 
 We take each IP address and run it through VirusTotal to see what the Community has come up with.  After a bit of trial and error, we find the two addresses the question requests.
 
-**Answer**: \*\*\*.\*\*\*.\*\*.\*\*\*, \*\*\*.\*\*\*.\*\*\*.\*\**
+**Answer**: `185.106.96.158`, `185.125.204.174`
 
 ### What is the Host header for the first Cobalt Strike IP address from the previous question?
 
