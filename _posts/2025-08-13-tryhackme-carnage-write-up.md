@@ -89,7 +89,15 @@ This sent back 10 frames, which include our answers.
 
 ### Which certificate authority issued the SSL certificate to the first domain from the previous question?
 
-Answer format: \*\*\*\*\*\**
+I found this by removing the `dns` filter from my search and and checking for the first TSL packet for `finejewels.com.au`.
+
+![](/assets/img/uploads/carnage-no-dns-filter.png)
+
+I followed the TCP stream and found reference to the certificate authority in the results:
+
+![](/assets/img/uploads/carnage-godaddy.png)
+
+**Answer**: GoDaddy
 
 ### What are the two IP addresses of the Cobalt Strike servers? Use VirusTotal (the Community tab) to confirm if IPs are identified as Cobalt Strike C2 servers. (answer format: enter the IP addresses in sequential order)
 
