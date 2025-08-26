@@ -127,7 +127,13 @@ This is found be following the TCP stream of one of the packets sent to the firs
 
 ### What is the domain name for the first IP address of the Cobalt Strike server? You may use VirusTotal to confirm if it's the Cobalt Strike server (check the Community tab).
 
-Answer format: \*\*\*\*\*\*\*\*\*.\*\*\**
+We can find this in Wireshark by searching for the DNS A record for `185.106.96.158`.  The filter is as follows: `dns.a == 185.106.96.158`.
+
+![]()
+
+This domain name shows up in [VirusTotal](https://www.virustotal.com/gui/ip-address/185.106.96.158/relations) under Relations.
+
+**Answer**: `survmeter.live`
 
 ### What is the domain name of the second Cobalt Strike server IP?  You may use VirusTotal to confirm if it's the Cobalt Strike server (check the Community tab).
 
