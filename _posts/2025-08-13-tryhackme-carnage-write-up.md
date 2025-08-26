@@ -129,13 +129,19 @@ This is found be following the TCP stream of one of the packets sent to the firs
 
 We can find this in Wireshark by searching for the DNS A record for `185.106.96.158`.  The filter is as follows: `dns.a == 185.106.96.158`.
 
-![]()
+![](/assets/img/uploads/carnage-survmeter.live.png)
 
-This domain name shows up in [VirusTotal](https://www.virustotal.com/gui/ip-address/185.106.96.158/relations) under Relations.
+This domain name shows up for the IP address in [VirusTotal](https://www.virustotal.com/gui/ip-address/185.106.96.158/relations) under Relations.
 
 **Answer**: `survmeter.live`
 
 ### What is the domain name of the second Cobalt Strike server IP?  You may use VirusTotal to confirm if it's the Cobalt Strike server (check the Community tab).
+
+Rinse and repeat the for the second.
+
+
+
+Again, we can confirm this in [VirusTota](https://www.virustotal.com/gui/ip-address/185.125.204.174/relations)l.
 
 Answer format: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*
 
