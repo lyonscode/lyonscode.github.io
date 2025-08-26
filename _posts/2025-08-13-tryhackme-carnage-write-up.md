@@ -157,13 +157,15 @@ Looking for HTTP traffic after the time period in which the infection happened, 
 
 Notice how every POST begins the same?
 
-
+![](/assets/img/uploads/carnage-zliisqrwzi9.png)
 
 **Answer**: `zLIisQRWZI9`
 
 ### What was the length for the first packet sent out to the C2 server?
 
-Answer format: \*\**
+![](/assets/img/uploads/carnage-packet-length.png)
+
+**Answer**: 281
 
 ### What was the Server header for the malicious domain from the previous question?
 
