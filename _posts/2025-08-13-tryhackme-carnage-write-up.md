@@ -179,9 +179,13 @@ We can follow the TCP stream for the previous packet to find this information.
 
 (**answer format**: yyyy-mm-dd hh:mm:ss UTC)
 
-We can craft a filter that involves the victim's IP address, DNS, and a search for "api" in the frame.  The following does the trick: `ip.addr == 10.9.23.102 and dns and frame contains "api"`
+We can craft a filter that involves the victim's IP address, DNS, and a search for "api" in the frame.  The following does the trick: `ip.addr == 10.9.23.102 and dns and frame contains "api"`.
 
-Answer format: \*\*\*\*\*\*\*\*\*\* \*\*:\*\*:\*\*
+After this we should look for a frame mentioning an API that appears to involve IP addresses.  Then we need only check the time for the interaction and convert it to the desired format.
+
+![](/assets/img/uploads/carnage-api-time.png)
+
+**Answer**: 2021-09-24 17:00:04
 
 ### What was the domain in the DNS query from the previous question?
 
