@@ -149,11 +149,17 @@ Again, we can confirm this in [VirusTota](https://www.virustotal.com/gui/ip-addr
 
 Looking for HTTP traffic after the time period in which the infection happened, we see many POST packets directed to one domain.
 
-Answer format: `maldivehost.net`
+![](/assets/img/uploads/carnage-maldivehost.net.png)
+
+**Answer**: `maldivehost.net`
 
 ### What are the first eleven characters that the victim host sends out to the malicious domain involved in the post-infection traffic? 
 
-Answer format: \*\*\*\*\*\*\*\*\*\**
+Notice how every POST begins the same?
+
+
+
+**Answer**: `zLIisQRWZI9`
 
 ### What was the length for the first packet sent out to the C2 server?
 
