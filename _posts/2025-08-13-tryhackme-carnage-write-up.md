@@ -101,9 +101,15 @@ I followed the TCP stream and found reference to the certificate authority in th
 
 ### What are the two IP addresses of the Cobalt Strike servers? Use VirusTotal (the Community tab) to confirm if IPs are identified as Cobalt Strike C2 servers. (answer format: enter the IP addresses in sequential order)
 
-We're looking for information on IP addresses that the affected machine is making regular contact with.  We can begin our search by looking for `GET` requests by using the following filter: `http.request.method == "GET"`
+We're looking for information on IP addresses that the affected machine is making regular contact with.  We can begin our search by looking for `GET` requests by using the following filter: `http.request.method == "GET"`.
 
-Answer format: \*\*\*.\*\*\*.\*\*.\*\*\*, \*\*\*.\*\*\*.\*\*\*.\*\**
+![](/assets/img/uploads/carnage-filter-for-get-requests.png)
+
+We can go to `Statistics` -> `Conversations` to analyze the traffic more coherently.
+
+![](/assets/img/uploads/carnage-statistics-conversations.png)
+
+**Answer**: \*\*\*.\*\*\*.\*\*.\*\*\*, \*\*\*.\*\*\*.\*\*\*.\*\**
 
 ### What is the Host header for the first Cobalt Strike IP address from the previous question?
 
