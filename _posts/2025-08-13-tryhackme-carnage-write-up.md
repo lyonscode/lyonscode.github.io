@@ -197,6 +197,8 @@ This is found from the previous query.
 
 ### Looks like there was some malicious spam (malspam) activity going on. What was the first MAIL FROM address observed in the traffic?
 
+We can find the first "MAIL FROM" by searching SMTP traffic: `smtp.req.parameter contains FROM`
+
 **Answer**: 
 
 ### How many packets were observed for the SMTPtraffic?
