@@ -109,6 +109,12 @@ We can go to `Statistics` -> `Conversations` to analyze the traffic more coheren
 
 ![](/assets/img/uploads/carnage-statistics-conversations.png)
 
+![](/assets/img/uploads/carnage-conversations.png)
+
+We see 10.9.23.102 communicating with a lot of other addresses, but we don't know which are the C2 servers yet, so we'll need to check each of them out.  Anything with an address like 10.9.23.XXX can be presumed to be part of the same subnet and thus not our suspect C2s.
+
+We take each IP address and run it through VirusTotal to see what the Community has come up with.  After a bit of trial and error, we find the two addresses the question requests.
+
 **Answer**: \*\*\*.\*\*\*.\*\*.\*\*\*, \*\*\*.\*\*\*.\*\*\*.\*\**
 
 ### What is the Host header for the first Cobalt Strike IP address from the previous question?
