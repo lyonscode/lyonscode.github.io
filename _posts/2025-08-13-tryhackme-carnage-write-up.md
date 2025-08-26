@@ -169,7 +169,11 @@ Notice how every POST begins the same?
 
 ### What was the Server header for the malicious domain from the previous question?
 
-Answer format: \*\*\*\*\*\*/\*.\*.\*\* \*\*\*\*\*\*\*\* \*\*\*\*\*\*\*/\*.\*.\*\* \*\*\*_\*\*\*\*\*\*\*\*\*/\*.*
+We can follow the TCP stream for the previous packet to find this information.
+
+
+
+**Answer**: Apache/2.4.49 (cPanel) OpenSSL/1.1.1l mod_bwlimited/1.4
 
 ### The malware used an API to check for the IP address of the victim’s machine. What was the date and time when theDNSquery for the IP check domain occurred?
 
