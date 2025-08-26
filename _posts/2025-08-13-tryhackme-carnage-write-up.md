@@ -175,9 +175,11 @@ We can follow the TCP stream for the previous packet to find this information.
 
 **Answer**: `Apache/2.4.49 (cPanel) OpenSSL/1.1.1l mod_bwlimited/1.4`
 
-### The malware used an API to check for the IP address of the victim’s machine. What was the date and time when theDNSquery for the IP check domain occurred?
+### The malware used an API to check for the IP address of the victim’s machine. What was the date and time when the DNS query for the IP check domain occurred?
 
 (**answer format**: yyyy-mm-dd hh:mm:ss UTC)
+
+We can craft a filter that involves the victim's IP address, DNS, and a search for "api" in the frame.  The following does the trick: `ip.addr == 10.9.23.102 and dns and frame contains "api"`
 
 Answer format: \*\*\*\*\*\*\*\*\*\* \*\*:\*\*:\*\*
 
