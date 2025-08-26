@@ -199,8 +199,16 @@ This is found from the previous query.
 
 We can find the first "MAIL FROM" by searching SMTP traffic: `smtp.req.parameter contains FROM`
 
+![](/assets/img/uploads/carnage-mail-from.png)
+
 **Answer**: `farshin@mailfa.com`
 
-### How many packets were observed for the SMTPtraffic?
+### How many packets were observed for the SMTP traffic?
 
-**Answer**:
+The answer to this can be found by just searching for SMTP traffic.
+
+![](/assets/img/uploads/carnage-1439.png)
+
+ 
+
+**Answer**: 1439
