@@ -189,7 +189,11 @@ After this we should look for a frame mentioning an API that appears to involve 
 
 ### What was the domain in the DNS query from the previous question?
 
-**Answer**:
+This is found from the previous query.
+
+![](/assets/img/uploads/carnage-api-domain.png)
+
+**Answer**: `api.ipify.org`
 
 ### Looks like there was some malicious spam (malspam) activity going on. What was the first MAIL FROM address observed in the traffic?
 
