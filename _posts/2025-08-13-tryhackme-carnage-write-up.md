@@ -119,7 +119,11 @@ We take each IP address and run it through VirusTotal to see what the Community 
 
 ### What is the Host header for the first Cobalt Strike IP address from the previous question?
 
-**Answer**:
+This is found be following the TCP stream of one of the packets sent to the first IP address.
+
+![](/assets/img/uploads/carnage-host-header.png)
+
+**Answer**: `ocsp.verisign.com`
 
 ### What is the domain name for the first IP address of the Cobalt Strike server? You may use VirusTotal to confirm if it's the Cobalt Strike server (check the Community tab).
 
