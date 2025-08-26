@@ -199,7 +199,7 @@ This is found from the previous query.
 
 We can find the first "MAIL FROM" by searching SMTP traffic: `smtp.req.parameter contains FROM`
 
-**Answer**: 
+**Answer**: `farshin@mailfa.com`
 
 ### How many packets were observed for the SMTPtraffic?
 
