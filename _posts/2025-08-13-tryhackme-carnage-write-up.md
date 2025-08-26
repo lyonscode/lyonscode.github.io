@@ -139,15 +139,17 @@ This domain name shows up for the IP address in [VirusTotal](https://www.virusto
 
 Rinse and repeat the for the second.
 
-
+![](/assets/img/uploads/carnage-securitybusinpuff.com.png)
 
 Again, we can confirm this in [VirusTota](https://www.virustotal.com/gui/ip-address/185.125.204.174/relations)l.
 
-Answer format: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*
+**Answer**: `securitybusinpuff.com`
 
 ### What is the domain name of the post-infection traffic?
 
-Answer format: \*\*\*\*\*\*\*\*\*\*\*.\*\*\*
+Looking for HTTP traffic after the time period in which the infection happened, we see many POST packets directed to one domain.
+
+Answer format: `maldivehost.net`
 
 ### What are the first eleven characters that the victim host sends out to the malicious domain involved in the post-infection traffic? 
 
