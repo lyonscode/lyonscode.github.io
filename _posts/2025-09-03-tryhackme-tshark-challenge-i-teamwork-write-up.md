@@ -33,7 +33,13 @@ The TryHackMe room TShark Challenge I: Teamwork can be found [here](https://tryh
 
 ### Enter your answer in defanged format.
 
-Answer format: \*\*\*\*\*://\*\*\*\*\*.\*\*\*\*\*\*\*\*.\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*\*/
+We can begin by taking a look at the provided `teamwork.pcap` file with TShark.
+
+![]()
+
+A simple `tshark -r teamwork.pcap` pours the contents out for us, but as there are over 700 packets in this capture, it's better if we can use some of TShark's filters to better find what we're seeking.
+
+**Answer**: \*\*\*\*\*://\*\*\*\*\*.\*\*\*\*\*\*\*\*.\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*\*/
 
 ### When was the URL of the malicious/suspicious domain address first submitted to VirusTotal?
 
