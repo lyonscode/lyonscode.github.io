@@ -96,7 +96,15 @@ All the "PayPal" domains point to the same IP address.
 
 This one was a little tough.
 
+Here is the exact command I ended up using: `tshark -r teamwork.pcap -V |  grep -Eo '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}'`
+
 Essentially the solution I found was to output the entire file and use `grep` to search for strings that match an email pattern: \*something\*@\*something\*.\*something\*.
+
+This brought up several matches, only one of which was a valid email.
+
+![](/assets/img/uploads/tshark-email-found.png)
+
+I then defanged the email as requested, replacing "@" with "at".
 
 **Answer**: johnny5alive\[at]gmail\[.]com
 
