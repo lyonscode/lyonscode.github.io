@@ -88,7 +88,7 @@ All the "PayPal" domains point to the same IP address.
 
 [CyberChef](https://cyberchef.org/#recipe=Defang_IP_Addresses()&input=MTg0LjE1NC4xMjcuMjI2) can defang for us.
 
-Answer format: \*\*\*\*.\*\*\*\*\*.\*\*\*\*\*.\*\*\*\*
+**Answer**: 184\[.]154\[.]127\[.]226
 
 ### What is the email address that was used?
 
