@@ -52,6 +52,8 @@ Running this command gets us to our answer:
 
 
 
+We can then use [CyberChef](https://gchq.github.io/CyberChef/#recipe=Defang_URL(true,true,true,'Valid%20domains%20and%20full%20URLs')&input=aHR0cDovL3d3dy5wYXlwYWwuY29tNHVzd2ViYXBwc3Jlc2V0YWNjb3VudHJlY292ZXJ5LnRpbWVzZWF3YXlzLmNvbS8) to defang.
+
 **Answer**: hxxp\[://]www\[.]paypal\[.]com4uswebappsresetaccountrecovery\[.]timeseaways\[.]com/
 
 ### When was the URL of the malicious/suspicious domain address first submitted to VirusTotal?
