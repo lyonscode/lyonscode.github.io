@@ -58,7 +58,11 @@ We can then use [CyberChef](https://gchq.github.io/CyberChef/#recipe=Defang_URL(
 
 ### When was the URL of the malicious/suspicious domain address first submitted to VirusTotal?
 
-Answer format: \*\*\*\*\*\*\*\*\*\* \*\*:\*\*:\*\* \*\**
+The answer to this question is easily found by looking up the found domain in [VirusTotal](https://www.virustotal.com/gui/url/16db0aadc2423a67cd3a01af39655146b0f15d20dc2fd0e14b325026d8d1717e/details).  The answer is in the Details tab.
+
+![](/assets/img/uploads/tshark-1-virustotal.png)
+
+**Answer**: 2017-04-17 22:52:53 UTC
 
 ### Which known service was the domain trying to impersonate?
 
