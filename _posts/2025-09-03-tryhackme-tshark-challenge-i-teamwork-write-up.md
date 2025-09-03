@@ -25,7 +25,7 @@ The TryHackMe room TShark Challenge I: Teamwork can be found [here](https://tryh
 
 > An alert has been triggered: "The threat research team discovered a suspicious domain that could be a potential threat to the organisation."
 
-Today we're looking at 
+Today we're looking at some malicous traffic with TShark.
 
 > Investigate the contacted domains.\
 > Investigate the domains by using VirusTotal.\
@@ -77,6 +77,8 @@ The answer is clear by looking at the domain.
 ### What is the IP address of the malicious domain?
 
 ### Enter your answer in defanged format.
+
+We can modify our existing query by adding `-e ip.dst` and drop the second `sort -r` to bring up the IP 
 
 Answer format: \*\*\*\*.\*\*\*\*\*.\*\*\*\*\*.\*\*\*\*
 
