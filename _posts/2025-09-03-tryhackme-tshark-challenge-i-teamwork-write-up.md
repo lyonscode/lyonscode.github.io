@@ -35,11 +35,24 @@ The TryHackMe room TShark Challenge I: Teamwork can be found [here](https://tryh
 
 We can begin by taking a look at the provided `teamwork.pcap` file with TShark.
 
-![]()
+![](/assets/img/uploads/tshark-r-teamwork.pcap.png)
 
-A simple `tshark -r teamwork.pcap` pours the contents out for us, but as there are over 700 packets in this capture, it's better if we can use some of TShark's filters to better find what we're seeking.
+A simple `tshark -r teamwork.pcap` pours the contents out for us, but as there are almost 800 packets in this capture, it's better if we can use some of TShark's filters to better find what we're seeking.
 
-**Answer**: \*\*\*\*\*://\*\*\*\*\*.\*\*\*\*\*\*\*\*.\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*\*/
+For a more refined search, we can use `tshark -r teamwork.pcap -T fields -e http.request.full_uri | awk NF | sort -r | uniq -c | sort -r`.  This command breaks down as follows:
+
+* `tshark -r teamwork.pcap` - Our base command, reading the `teamwork.pcap` file
+* `-T fields -e http.request.full_uri` - This creates tells TShark to only display certain fields from the packets, in this case `http.request.full_uri` in order to get a list of the URLs
+* `awk NF` - Built-in Linux tool removing empty lines
+* `sort -r` - Built-in Linux tool to sort the items in reverse order
+* `uniq -c` - Built-in Linux tool to count number of unique items
+* `sort -r` - Sorted again to put in order of highest count to lowest
+
+Running this command gets us to our answer:
+
+
+
+**Answer**: hxxp\[://]www\[.]paypal\[.]com4uswebappsresetaccountrecovery\[.]timeseaways\[.]com/
 
 ### When was the URL of the malicious/suspicious domain address first submitted to VirusTotal?
 
