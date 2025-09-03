@@ -24,7 +24,9 @@ paginate: false
 The TryHackMe room TShark Challenge I: Teamwork can be found [here](https://tryhackme.com/room/tsharkchallengesone).
 
 > An alert has been triggered: "The threat research team discovered a suspicious domain that could be a potential threat to the organisation."
->
+
+Today we're looking at 
+
 > Investigate the contacted domains.\
 > Investigate the domains by using VirusTotal.\
 > According to VirusTotal, there is a domain marked as malicious/suspicious.
@@ -37,7 +39,7 @@ We can begin by taking a look at the provided `teamwork.pcap` file with TShark.
 
 ![](/assets/img/uploads/tshark-r-teamwork.pcap.png)
 
-A simple `tshark -r teamwork.pcap` pours the contents out for us, but as there are almost 800 packets in this capture, it's better if we can use some of TShark's filters to better find what we're seeking.
+A simple `tshark -r teamwork.pcap` pours the contents out for us, but as there are almost 800 packets in this capture, it's better if we can use some of TShark's filters to find what we're seeking.
 
 For a more refined search, we can use `tshark -r teamwork.pcap -T fields -e http.request.full_uri | awk NF | sort -r | uniq -c | sort -r`.  This command breaks down as follows:
 
@@ -68,7 +70,7 @@ The answer to this question is easily found by looking up the found domain in [V
 
 The answer is clear by looking at the domain.
 
-
+![](/assets/img/uploads/tshark-1-fake-paypal.png)
 
 **Answer**: PayPal
 
