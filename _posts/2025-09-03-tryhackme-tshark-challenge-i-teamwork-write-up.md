@@ -68,6 +68,8 @@ The answer to this question is easily found by looking up the found domain in [V
 
 The answer is clear by looking at the domain.
 
+
+
 **Answer**: PayPal
 
 ### What is the IP address of the malicious domain?
