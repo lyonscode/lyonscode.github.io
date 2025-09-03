@@ -31,6 +31,8 @@ Today we're looking at some malicous traffic with TShark.
 > Investigate the domains by using VirusTotal.\
 > According to VirusTotal, there is a domain marked as malicious/suspicious.
 
+Let's get started!
+
 ### What is the full URL of the malicious/suspicious domain address?
 
 ### Enter your answer in defanged format.
@@ -78,7 +80,9 @@ The answer is clear by looking at the domain.
 
 ### Enter your answer in defanged format.
 
-We can modify our existing query by adding `-e ip.dst` and drop the second `sort -r` to bring up the IP 
+We can modify our existing query by adding `-e ip.dst` and drop the second `sort -r` to bring up the IP addresses for all previously found domains.  The command looks like this `tshark -r teamwork.pcap -T fields -e http.request.full_uri -e ip.dst | awk NF | sort -r | uniq -c`.
+
+
 
 Answer format: \*\*\*\*.\*\*\*\*\*.\*\*\*\*\*.\*\*\*\*
 
