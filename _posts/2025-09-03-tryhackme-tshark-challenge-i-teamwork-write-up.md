@@ -48,9 +48,9 @@ For a more refined search, we can use `tshark -r teamwork.pcap -T fields -e http
 * `uniq -c` - Built-in Linux tool to count number of unique items
 * `sort -r` - Sorted again to put in order of highest count to lowest
 
-Running this command gets us to our answer:
+Running this command gets us to our answer.  What domain appears over and over again here?
 
-
+![](/assets/img/uploads/tshark-http.request.full_uri.png)
 
 We can then use [CyberChef](https://gchq.github.io/CyberChef/#recipe=Defang_URL(true,true,true,'Valid%20domains%20and%20full%20URLs')&input=aHR0cDovL3d3dy5wYXlwYWwuY29tNHVzd2ViYXBwc3Jlc2V0YWNjb3VudHJlY292ZXJ5LnRpbWVzZWF3YXlzLmNvbS8) to defang.
 
