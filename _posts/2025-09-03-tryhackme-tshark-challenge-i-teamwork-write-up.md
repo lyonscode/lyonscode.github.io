@@ -82,7 +82,11 @@ The answer is clear by looking at the domain.
 
 We can modify our existing query by adding `-e ip.dst` and drop the second `sort -r` to bring up the IP addresses for all previously found domains.  The command looks like this `tshark -r teamwork.pcap -T fields -e http.request.full_uri -e ip.dst | awk NF | sort -r | uniq -c`.
 
+All the "PayPal" domains point to the same IP address.
 
+![](/assets/img/uploads/tshark-1-fake-paypal-ip-address.png)
+
+[CyberChef](https://cyberchef.org/#recipe=Defang_IP_Addresses()&input=MTg0LjE1NC4xMjcuMjI2) can defang for us.
 
 Answer format: \*\*\*\*.\*\*\*\*\*.\*\*\*\*\*.\*\*\*\*
 
@@ -93,5 +97,7 @@ Answer format: \*\*\*\*.\*\*\*\*\*.\*\*\*\*\*.\*\*\*\*
 Answer format: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*\*
 
 ### Congratulations! You have finished the first challenge room, but there is one more ticket before calling it out a day!
+
+Part II of this room can be found at the below link:
 
 * [TShark Challenge II: Directory](https://lyonscode.github.io/tryhackme-challenge-ii-directory-write-up/)
