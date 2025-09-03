@@ -94,7 +94,11 @@ All the "PayPal" domains point to the same IP address.
 
 ### Enter your answer in defanged format. (**format:** aaa\[at]bbb\[.]ccc)
 
-Answer format: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*\*
+This one was a little tough.
+
+Essentially the solution I found was to output the entire file and use `grep` to search for strings that match an email pattern: \*something\*@\*something\*.\*something\*.
+
+**Answer**: johnny5alive\[at]gmail\[.]com
 
 ### Congratulations! You have finished the first challenge room, but there is one more ticket before calling it out a day!
 
