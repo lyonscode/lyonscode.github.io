@@ -4,7 +4,8 @@ layout: post
 title: "TryHackMe - TShark Challenge I: Teamwork - Write-Up"
 subtitle: Put your TShark skills into practice and analyse some network traffic.
 description: Put your TShark skills into practice and analyse some network traffic.
-image: ""
+image: /assets/img/uploads/tshark-challenge-1-760x399.png
+optimized_image: /assets/img/uploads/tshark-challenge-1-760x399.png
 category: write-up
 author: Michael
 paginate: false
