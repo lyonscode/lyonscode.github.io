@@ -7,6 +7,17 @@ description: Put your TShark skills into practice and analyse some network traff
 image: /assets/img/uploads/tshark-challenge-1-760x399.png
 optimized_image: /assets/img/uploads/tshark-challenge-1-760x399.png
 category: write-up
+tags:
+  - tshark
+  - tshark challenge
+  - tryhackme
+  - write-up
+  - walkthrough
+  - linux
+  - incident-response
+  - infosec
+  - cybersecurity
+  - soc-analyst
 author: Michael
 paginate: false
 ---
